@@ -1,82 +1,90 @@
+<div align="center">
+
 # readDocs
 
-Navigate official documentation with clarity, order, and correctness.
+**stop watching. start reading.**
 
-## Overview
+<br>
 
-readDocs is a structured learning path navigator that helps you master major tech domains by guiding you through official documentation in the correct order. No rewrites, no third-party tutorials—just the right docs in the right sequence.
+The anti-tutorial.
 
-## Supported Domains
+You don't need another mass produced YouTube walkthrough.<br>
+You need the source. In the right order. Nothing else.
 
-- **Web Development** - HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js
-- **Mobile Development** - Swift, SwiftUI, Kotlin, Jetpack Compose, React Native, Flutter
-- **Web3** - Blockchain fundamentals, Solidity, Smart Contracts, ethers.js/viem, DeFi
-- **AI & Machine Learning** - Python, NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, Hugging Face
+<br>
 
-## Tech Stack
+[Live](https://readdocs.dev) · [Report Bug](https://github.com/TirthDhandhukia30/readDocs/issues)
 
-- [React](https://react.dev/) - UI Library
-- [TanStack Router](https://tanstack.com/router) - Type-safe routing
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
-- [Vite](https://vitejs.dev/) - Build tool
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
+---
 
-## Getting Started
+</div>
+
+<br>
+
+## Philosophy
+
+> tutorials → consumption → forgotten
+> 
+> readDocs → comprehension → mastery
+
+We don't rewrite documentation. We sequence it.
+
+<br>
+
+## What's Inside
+
+**Domains** — Web · Mobile · Web3 · AI/ML
+
+**Languages** — Rust · Go · Swift · Kotlin · C++
+
+**Skills** — React · TypeScript · Auth · Databases
+
+<br>
+
+## The Stack
+
+| Layer | Choice |
+|-------|--------|
+| UI | React 19 |
+| Routing | TanStack Router |
+| Styling | Tailwind CSS v4 |
+| Search | MiniSearch |
+| Build | Vite |
+
+<br>
+
+## Run It
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+npm i && npm run dev
 ```
 
-## Guiding Principles
+That's it. No env files. No database. No auth setup.
 
-1. **Official Sources Only** - Every link points to official documentation
-2. **Strict Dependency Order** - Clear prerequisites for each step
-3. **No Tool Hype** - Focus on what matters for learning
-4. **Clear Mental Models** - Build correct understanding from the ground up
+<br>
 
-## Features
+## Keyboard
 
-- 🎯 Domain-based learning paths
-- 📊 Progress tracking with local storage
-- 🌓 Dark/Light mode support
-- 📱 Fully responsive design
-- 🔗 Direct links to official documentation
+| Key | Action |
+|-----|--------|
+| `⌘K` | Search everything |
+| `H` | Go home |
+| `?` | Show all shortcuts |
 
-## Project Structure
+<br>
 
-```
-src/
-├── components/     # Reusable UI components
-│   └── Layout.tsx  # Main layout with header/footer
-├── data/           # Learning path data
-│   └── learningPaths.ts
-├── pages/          # Page components
-│   ├── HomePage.tsx
-│   └── DomainPage.tsx
-├── types.ts        # TypeScript type definitions
-├── router.tsx      # TanStack Router configuration
-├── main.tsx        # App entry point
-└── index.css       # Global styles with Tailwind
-```
+## Contribute
 
-## Contributing
+Found a broken link? Know a better doc order? Open a PR.
 
-Feel free to submit PRs to:
-- Add new domains or learning paths
-- Update documentation links
-- Improve the UI/UX
-- Fix bugs
+<br>
 
-## License
+---
 
-MIT
+<div align="center">
+
+**Built for developers who read.**
+
+<sub>No analytics. No cookies. No tracking. Just docs.</sub>
+
+</div>
