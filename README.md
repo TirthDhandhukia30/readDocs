@@ -1,51 +1,58 @@
-<div align="center">
-<br>
-<br>
-
 # readDocs
 
-### Exit the tutorial hell.
+Navigate official documentation with clarity, order, and correctness.
 
-<br>
+## Overview
 
-[readdocs.dev](https://readdocs.dev)
+readDocs is a structured learning path navigator that helps you master major tech domains by guiding you through official documentation in the correct order. No rewrites, no third-party tutorials—just the right docs in the right sequence.
 
-<br>
-<br>
-</div>
+## Supported Domains
 
----
+- **Web Development** - HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js
+- **Mobile Development** - Swift, SwiftUI, Kotlin, Jetpack Compose, React Native, Flutter
+- **Web3** - Blockchain fundamentals, Solidity, Smart Contracts, ethers.js/viem, DeFi
+- **AI & Machine Learning** - Python, NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, Hugging Face
 
-<br>
+## Tech Stack
 
-**What is this?**
+- [React](https://react.dev/) - UI Library
+- [TanStack Router](https://tanstack.com/router) - Type-safe routing
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+- [Vite](https://vitejs.dev/) - Build tool
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
 
-A curated sequence of official documentation. No rewrites. No opinions. Just the right docs in the right order.
+## Getting Started
 
-<br>
+```bash
+# Install dependencies
+npm install
 
-**Why?**
+# Start development server
+npm run dev
 
-Because you learn better from the source than from someone explaining the source.
+# Build for production
+npm run build
 
-<br>
-
-**What's covered?**
-
-Web. Mobile. Web3. AI. Plus Rust, Go, Swift, Kotlin, and more.
-
-<br>
-
-**Run locally?**
-
+# Preview production build
+npm run preview
 ```
-npm i && npm run dev
-```
 
-<br>
+## Guiding Principles
 
----
+1. **Official Sources Only** - Every link points to official documentation
+2. **Strict Dependency Order** - Clear prerequisites for each step
+3. **No Tool Hype** - Focus on what matters for learning
+4. **Clear Mental Models** - Build correct understanding from the ground up
 
-<div align="center">
-<sub>No tracking. No ads. No bullshit.</sub>
-</div>
+## Features
+
+- 🎯 Domain-based learning paths
+- 📊 Progress tracking with local storage
+- 🔍 Universal search across all documentation
+- ⌨️ Keyboard shortcuts for power users
+- 🌙 Dark mode support
+- 📱 Fully responsive design
+
+## License
+
+MIT
