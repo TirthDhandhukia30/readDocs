@@ -100,6 +100,17 @@ export function Layout({ children }: LayoutProps) {
       {/* Footer */}
       <footer className="mt-auto print:hidden">
         <div className="max-w-3xl mx-auto px-6 py-8">
+          <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
+            Made with <span className="text-red-500">♥</span>{' '}
+            <a 
+              href="https://tirthdhandhukia.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline hover:text-[hsl(var(--foreground))] transition-colors"
+            >
+              Tirthhh
+            </a>
+          </p>
         </div>
       </footer>
 
