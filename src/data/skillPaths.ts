@@ -9,6 +9,7 @@ export const skills: Skill[] = [
   { id: 'prisma', name: 'Prisma', category: 'tool' },
   { id: 'drizzle', name: 'Drizzle ORM', category: 'tool' },
   { id: 'better-auth', name: 'Better Auth', category: 'library' },
+  { id: 'dodo-payments', name: 'Dodo Payments', category: 'library' },
   { id: 'shadcn-ui', name: 'shadcn/ui', category: 'library' },
   { id: 'framer-motion', name: 'Framer Motion', category: 'library' },
   { id: 'supabase', name: 'Supabase', category: 'cloud' },
@@ -1272,6 +1273,99 @@ export const skillPaths: Record<string, LearningPath> = {
             title: 'Organizations',
             url: 'https://www.better-auth.com/docs/plugins/organization',
             source: 'Better Auth',
+          },
+        ],
+      },
+    ],
+  },
+  'dodo-payments': {
+    id: 'dodo-payments',
+    name: 'Dodo Payments',
+    description: 'Global payments infrastructure for developers',
+    steps: [
+      {
+        id: 'dodo-intro',
+        title: 'Introduction',
+        description: 'Get started with Dodo Payments.',
+        order: 1,
+        prerequisite: null,
+        resources: [
+          {
+            title: 'Introduction',
+            url: 'https://docs.dodopayments.com/introduction',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'Migrate to Dodo Payments',
+            url: 'https://docs.dodopayments.com/migrate-to-dodo',
+            source: 'Dodo Payments',
+          },
+        ],
+      },
+      {
+        id: 'dodo-products',
+        title: 'Products & Billing',
+        description: 'Create products and choose billing models.',
+        order: 2,
+        prerequisite: 'dodo-intro',
+        resources: [
+          {
+            title: 'One-Time Payments',
+            url: 'https://docs.dodopayments.com/features/one-time-payment-products',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'Subscriptions',
+            url: 'https://docs.dodopayments.com/features/subscription',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'Usage-Based Billing',
+            url: 'https://docs.dodopayments.com/features/usage-based-billing',
+            source: 'Dodo Payments',
+          },
+        ],
+      },
+      {
+        id: 'dodo-integration',
+        title: 'Integration',
+        description: 'Integrate with your stack.',
+        order: 3,
+        prerequisite: 'dodo-products',
+        resources: [
+          {
+            title: 'Integration Guide',
+            url: 'https://docs.dodopayments.com/developer-resources/integration-guide',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'Next.js Adapter',
+            url: 'https://docs.dodopayments.com/developer-resources/nextjs-adaptor',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'SDKs',
+            url: 'https://docs.dodopayments.com/developer-resources/dodo-payments-sdks',
+            source: 'Dodo Payments',
+          },
+        ],
+      },
+      {
+        id: 'dodo-advanced',
+        title: 'Advanced Features',
+        description: 'Customers, discounts, and more.',
+        order: 4,
+        prerequisite: 'dodo-integration',
+        resources: [
+          {
+            title: 'API Reference',
+            url: 'https://docs.dodopayments.com/api-reference/introduction',
+            source: 'Dodo Payments',
+          },
+          {
+            title: 'Sentra AI Agent',
+            url: 'https://docs.dodopayments.com/developer-resources/sentra',
+            source: 'Dodo Payments',
           },
         ],
       },

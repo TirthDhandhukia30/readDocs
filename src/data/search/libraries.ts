@@ -96,6 +96,22 @@ export const betterAuthEntries: SearchEntry[] = [
   { id: 'ba-organizations', title: 'Organizations', description: 'Organization plugin', url: 'https://www.better-auth.com/docs/plugins/organization', category: 'Better Auth', source: 'Better Auth', keywords: ['organization', 'organizations', 'teams', 'multi-tenant'], priority: 75 },
 ];
 
+// Dodo Payments
+export const dodoPaymentsEntries: SearchEntry[] = [
+  { id: 'dodo-intro', title: 'Dodo Payments', description: 'Global payments infrastructure', url: 'https://docs.dodopayments.com/introduction', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['dodo', 'dodo payments', 'payments', 'billing', 'stripe alternative'], aliases: ['dodo'], priority: 90 },
+  { id: 'dodo-migrate', title: 'Migrate to Dodo', description: 'Migration guide', url: 'https://docs.dodopayments.com/migrate-to-dodo', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['migrate', 'migration', 'switch', 'stripe migration'], priority: 80 },
+  { id: 'dodo-onetime', title: 'One-Time Payments', description: 'Accept one-time payments', url: 'https://docs.dodopayments.com/features/one-time-payment-products', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['one-time', 'one time payment', 'single payment', 'checkout'], priority: 90 },
+  { id: 'dodo-subscriptions', title: 'Subscriptions', description: 'Recurring billing', url: 'https://docs.dodopayments.com/features/subscription', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['subscription', 'subscriptions', 'recurring', 'billing', 'monthly'], priority: 90 },
+  { id: 'dodo-usage', title: 'Usage-Based Billing', description: 'Bill by usage metrics', url: 'https://docs.dodopayments.com/features/usage-based-billing', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['usage', 'usage based', 'metered', 'credits', 'tokens', 'api calls'], priority: 85 },
+  { id: 'dodo-integration', title: 'Integration Guide', description: 'Developer integration guide', url: 'https://docs.dodopayments.com/developer-resources/integration-guide', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['integration', 'integrate', 'setup', 'getting started'], priority: 85 },
+  { id: 'dodo-nextjs', title: 'Next.js Adapter', description: 'Next.js integration', url: 'https://docs.dodopayments.com/developer-resources/nextjs-adaptor', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['nextjs', 'next.js', 'adapter', 'react'], priority: 85 },
+  { id: 'dodo-sdks', title: 'SDKs', description: 'Official SDKs', url: 'https://docs.dodopayments.com/developer-resources/dodo-payments-sdks', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['sdk', 'sdks', 'typescript', 'python', 'go'], priority: 85 },
+  { id: 'dodo-api', title: 'API Reference', description: 'Full API documentation', url: 'https://docs.dodopayments.com/api-reference/introduction', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['api', 'api reference', 'endpoints', 'rest api'], priority: 85 },
+  { id: 'dodo-sentra', title: 'Sentra AI Agent', description: 'AI-powered billing assistant', url: 'https://docs.dodopayments.com/developer-resources/sentra', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['sentra', 'ai', 'agent', 'assistant', 'vscode', 'cursor'], priority: 80 },
+  { id: 'dodo-mobile', title: 'Mobile Integration', description: 'iOS and Android payments', url: 'https://docs.dodopayments.com/developer-resources/mobile-integration', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['mobile', 'ios', 'android', 'react native', 'in-app'], priority: 80 },
+  { id: 'dodo-integrations', title: 'Integrations', description: 'Third-party integrations', url: 'https://docs.dodopayments.com/integrations/introduction', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['integrations', 'framer', 'woocommerce', 'zapier'], priority: 75 },
+];
+
 // shadcn/ui
 export const shadcnEntries: SearchEntry[] = [
   // Core
