@@ -20,6 +20,11 @@ export function Layout({ children }: LayoutProps) {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add('dark');

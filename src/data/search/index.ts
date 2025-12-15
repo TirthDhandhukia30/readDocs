@@ -16,7 +16,8 @@ import {
   trpcEntries, 
   betterAuthEntries,
   dodoPaymentsEntries,
-  shadcnEntries, 
+  shadcnEntries,
+  aceternityEntries,
   framerMotionEntries, 
   zustandEntries,
   vitestEntries,
@@ -59,6 +60,7 @@ export const searchIndex: SearchEntry[] = [
   ...betterAuthEntries,
   ...dodoPaymentsEntries,
   ...shadcnEntries,
+  ...aceternityEntries,
   ...framerMotionEntries,
   ...zustandEntries,
   // Testing
@@ -106,6 +108,7 @@ export {
   betterAuthEntries,
   dodoPaymentsEntries,
   shadcnEntries,
+  aceternityEntries,
   framerMotionEntries,
   zustandEntries,
   // Testing

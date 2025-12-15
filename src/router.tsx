@@ -51,7 +51,11 @@ const languageRoute = createRoute({
 
 const routeTree = rootRoute.addChildren([indexRoute, domainRoute, skillRoute, languageRoute]);
 
-export const router = createRouter({ routeTree, notFoundRoute });
+export const router = createRouter({
+  routeTree,
+  notFoundRoute,
+  defaultPreloadStaleTime: 0,
+});
 
 declare module '@tanstack/react-router' {
   interface Register {

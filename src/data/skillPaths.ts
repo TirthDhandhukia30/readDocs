@@ -11,6 +11,7 @@ export const skills: Skill[] = [
   { id: 'better-auth', name: 'Better Auth', category: 'library' },
   { id: 'dodo-payments', name: 'Dodo Payments', category: 'library' },
   { id: 'shadcn-ui', name: 'shadcn/ui', category: 'library' },
+  { id: 'aceternity-ui', name: 'Aceternity UI', category: 'library' },
   { id: 'framer-motion', name: 'Framer Motion', category: 'library' },
   { id: 'supabase', name: 'Supabase', category: 'cloud' },
   { id: 'firebase', name: 'Firebase', category: 'cloud' },
@@ -1445,6 +1446,231 @@ export const skillPaths: Record<string, LearningPath> = {
             title: 'Data Table',
             url: 'https://ui.shadcn.com/docs/components/data-table',
             source: 'shadcn/ui',
+          },
+        ],
+      },
+    ],
+  },
+  'aceternity-ui': {
+    id: 'aceternity-ui',
+    name: 'Aceternity UI',
+    description: 'Copy-paste animated components for React with Tailwind CSS and Framer Motion',
+    steps: [
+      {
+        id: 'aceternity-getting-started',
+        title: 'Getting Started',
+        description: 'Explore Aceternity UI components and understand the setup.',
+        order: 1,
+        prerequisite: null,
+        resources: [
+          {
+            title: 'All Components',
+            url: 'https://ui.aceternity.com/components',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Templates',
+            url: 'https://ui.aceternity.com/templates',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-backgrounds',
+        title: 'Backgrounds & Effects',
+        description: 'Add stunning background effects to your sections.',
+        order: 2,
+        prerequisite: 'aceternity-getting-started',
+        resources: [
+          {
+            title: 'Aurora Background',
+            url: 'https://ui.aceternity.com/components/aurora-background',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Background Beams',
+            url: 'https://ui.aceternity.com/components/background-beams',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Wavy Background',
+            url: 'https://ui.aceternity.com/components/wavy-background',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Grid and Dot Backgrounds',
+            url: 'https://ui.aceternity.com/components/grid-and-dot-backgrounds',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Sparkles',
+            url: 'https://ui.aceternity.com/components/sparkles',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-cards',
+        title: 'Cards & Layouts',
+        description: 'Beautiful card components with hover effects.',
+        order: 3,
+        prerequisite: 'aceternity-backgrounds',
+        resources: [
+          {
+            title: '3D Card Effect',
+            url: 'https://ui.aceternity.com/components/3d-card-effect',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Bento Grid',
+            url: 'https://ui.aceternity.com/components/bento-grid',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Expandable Cards',
+            url: 'https://ui.aceternity.com/components/expandable-card',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Focus Cards',
+            url: 'https://ui.aceternity.com/components/focus-cards',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Card Hover Effect',
+            url: 'https://ui.aceternity.com/components/card-hover-effect',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-text',
+        title: 'Text Animations',
+        description: 'Animate text with typewriter, flip, and generate effects.',
+        order: 4,
+        prerequisite: 'aceternity-cards',
+        resources: [
+          {
+            title: 'Typewriter Effect',
+            url: 'https://ui.aceternity.com/components/typewriter-effect',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Flip Words',
+            url: 'https://ui.aceternity.com/components/flip-words',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Text Generate Effect',
+            url: 'https://ui.aceternity.com/components/text-generate-effect',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Colourful Text',
+            url: 'https://ui.aceternity.com/components/colourful-text',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-navigation',
+        title: 'Navigation Components',
+        description: 'Floating docks, navbars, and sidebars.',
+        order: 5,
+        prerequisite: 'aceternity-text',
+        resources: [
+          {
+            title: 'Floating Dock',
+            url: 'https://ui.aceternity.com/components/floating-dock',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Floating Navbar',
+            url: 'https://ui.aceternity.com/components/floating-navbar',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Navbar Menu',
+            url: 'https://ui.aceternity.com/components/navbar-menu',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Sidebar',
+            url: 'https://ui.aceternity.com/components/sidebar',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-hero',
+        title: 'Hero & Feature Sections',
+        description: 'Build impactful landing pages.',
+        order: 6,
+        prerequisite: 'aceternity-navigation',
+        resources: [
+          {
+            title: 'Hero Sections',
+            url: 'https://ui.aceternity.com/components/hero-sections',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Hero Parallax',
+            url: 'https://ui.aceternity.com/components/hero-parallax',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Lamp Effect',
+            url: 'https://ui.aceternity.com/components/lamp-effect',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Feature Sections',
+            url: 'https://ui.aceternity.com/components/feature-sections',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Spotlight',
+            url: 'https://ui.aceternity.com/components/spotlight',
+            source: 'Aceternity',
+          },
+        ],
+      },
+      {
+        id: 'aceternity-interactive',
+        title: 'Interactive Components',
+        description: 'Carousels, modals, and scroll animations.',
+        order: 7,
+        prerequisite: 'aceternity-hero',
+        resources: [
+          {
+            title: 'Apple Cards Carousel',
+            url: 'https://ui.aceternity.com/components/apple-cards-carousel',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Animated Modal',
+            url: 'https://ui.aceternity.com/components/animated-modal',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Sticky Scroll Reveal',
+            url: 'https://ui.aceternity.com/components/sticky-scroll-reveal',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Compare',
+            url: 'https://ui.aceternity.com/components/compare',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Infinite Moving Cards',
+            url: 'https://ui.aceternity.com/components/infinite-moving-cards',
+            source: 'Aceternity',
+          },
+          {
+            title: 'Timeline',
+            url: 'https://ui.aceternity.com/components/timeline',
+            source: 'Aceternity',
           },
         ],
       },
