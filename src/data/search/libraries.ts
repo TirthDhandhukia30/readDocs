@@ -112,6 +112,21 @@ export const dodoPaymentsEntries: SearchEntry[] = [
   { id: 'dodo-integrations', title: 'Integrations', description: 'Third-party integrations', url: 'https://docs.dodopayments.com/integrations/introduction', category: 'Dodo Payments', source: 'Dodo Payments', keywords: ['integrations', 'framer', 'woocommerce', 'zapier'], priority: 75 },
 ];
 
+// Supermemory
+export const supermemoryEntries: SearchEntry[] = [
+  { id: 'supermemory-intro', title: 'Supermemory', description: 'Memory API for the AI era', url: 'https://supermemory.ai/docs/introduction', category: 'Supermemory', source: 'Supermemory', keywords: ['supermemory', 'memory', 'ai memory', 'long term memory', 'context'], aliases: ['memory api'], priority: 90 },
+  { id: 'supermemory-quickstart', title: 'Quickstart', description: 'Get started with Supermemory', url: 'https://supermemory.ai/docs/quickstart', category: 'Supermemory', source: 'Supermemory', keywords: ['quickstart', 'start', 'setup', 'getting started'], priority: 90 },
+  { id: 'supermemory-how-works', title: 'How It Works', description: 'Understanding Supermemory architecture', url: 'https://supermemory.ai/docs/how-it-works', category: 'Supermemory', source: 'Supermemory', keywords: ['how it works', 'architecture', 'overview'], priority: 85 },
+  { id: 'supermemory-memory-api', title: 'Memory APIs', description: 'Core memory APIs', url: 'https://supermemory.ai/docs/intro', category: 'Supermemory', source: 'Supermemory', keywords: ['memory api', 'api', 'core api'], priority: 90 },
+  { id: 'supermemory-user-profiles', title: 'User Profiles', description: 'Persistent user context', url: 'https://supermemory.ai/docs/user-profiles', category: 'Supermemory', source: 'Supermemory', keywords: ['user profiles', 'profiles', 'user context', 'preferences'], priority: 85 },
+  { id: 'supermemory-memory-router', title: 'Memory Router', description: 'Intelligent context management', url: 'https://supermemory.ai/docs/memory-router/overview', category: 'Supermemory', source: 'Supermemory', keywords: ['memory router', 'router', 'context management'], priority: 85 },
+  { id: 'supermemory-connectors', title: 'Connectors', description: 'Google Drive, Notion, OneDrive integrations', url: 'https://supermemory.ai/docs/connectors/overview', category: 'Supermemory', source: 'Supermemory', keywords: ['connectors', 'google drive', 'notion', 'onedrive', 'integrations'], priority: 85 },
+  { id: 'supermemory-sdks', title: 'SDKs', description: 'TypeScript, Python and more', url: 'https://supermemory.ai/docs/memory-api/sdks/overview', category: 'Supermemory', source: 'Supermemory', keywords: ['sdk', 'sdks', 'typescript', 'python', 'openai', 'anthropic'], priority: 85 },
+  { id: 'supermemory-api-ref', title: 'API Reference', description: 'Full API documentation', url: 'https://supermemory.ai/docs/api-reference/manage-documents/add-document', category: 'Supermemory', source: 'Supermemory', keywords: ['api reference', 'api docs', 'endpoints'], priority: 80 },
+  { id: 'supermemory-memory-vs-rag', title: 'Memory vs RAG', description: 'Understanding memory and RAG', url: 'https://supermemory.ai/docs/memory-vs-rag', category: 'Supermemory', source: 'Supermemory', keywords: ['memory vs rag', 'rag', 'retrieval', 'comparison'], priority: 80 },
+  { id: 'supermemory-cookbook', title: 'Cookbooks', description: 'Tutorials and examples', url: 'https://supermemory.ai/docs/cookbook/overview', category: 'Supermemory', source: 'Supermemory', keywords: ['cookbook', 'tutorials', 'examples', 'guides'], priority: 80 },
+];
+
 // shadcn/ui
 export const shadcnEntries: SearchEntry[] = [
   // Core

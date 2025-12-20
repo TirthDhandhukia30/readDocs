@@ -12,6 +12,7 @@ export const skills: Skill[] = [
   { id: 'dodo-payments', name: 'Dodo Payments', category: 'library' },
   { id: 'shadcn-ui', name: 'shadcn/ui', category: 'library' },
   { id: 'aceternity-ui', name: 'Aceternity UI', category: 'library' },
+  { id: 'supermemory', name: 'Supermemory', category: 'library' },
   { id: 'framer-motion', name: 'Framer Motion', category: 'library' },
   { id: 'supabase', name: 'Supabase', category: 'cloud' },
   { id: 'firebase', name: 'Firebase', category: 'cloud' },
@@ -1671,6 +1672,131 @@ export const skillPaths: Record<string, LearningPath> = {
             title: 'Timeline',
             url: 'https://ui.aceternity.com/components/timeline',
             source: 'Aceternity',
+          },
+        ],
+      },
+    ],
+  },
+  'supermemory': {
+    id: 'supermemory',
+    name: 'Supermemory',
+    description: 'Memory API for the AI era - persistent context and memory for AI applications',
+    steps: [
+      {
+        id: 'supermemory-intro',
+        title: 'Introduction',
+        description: 'Understand what Supermemory is and how it works.',
+        order: 1,
+        prerequisite: null,
+        resources: [
+          {
+            title: 'Introduction',
+            url: 'https://supermemory.ai/docs/introduction',
+            source: 'Supermemory',
+          },
+          {
+            title: 'How It Works',
+            url: 'https://supermemory.ai/docs/how-it-works',
+            source: 'Supermemory',
+          },
+          {
+            title: 'Memory vs RAG',
+            url: 'https://supermemory.ai/docs/memory-vs-rag',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-quickstart',
+        title: 'Quickstart',
+        description: 'Get started with Supermemory in minutes.',
+        order: 2,
+        prerequisite: 'supermemory-intro',
+        resources: [
+          {
+            title: 'Quickstart',
+            url: 'https://supermemory.ai/docs/quickstart',
+            source: 'Supermemory',
+          },
+          {
+            title: 'SDKs Overview',
+            url: 'https://supermemory.ai/docs/memory-api/sdks/overview',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-memory-api',
+        title: 'Memory APIs',
+        description: 'Learn the core memory APIs for storing and retrieving context.',
+        order: 3,
+        prerequisite: 'supermemory-quickstart',
+        resources: [
+          {
+            title: 'Memory APIs',
+            url: 'https://supermemory.ai/docs/intro',
+            source: 'Supermemory',
+          },
+          {
+            title: 'Add Document',
+            url: 'https://supermemory.ai/docs/api-reference/manage-documents/add-document',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-user-profiles',
+        title: 'User Profiles',
+        description: 'Implement persistent user context and preferences.',
+        order: 4,
+        prerequisite: 'supermemory-memory-api',
+        resources: [
+          {
+            title: 'User Profiles',
+            url: 'https://supermemory.ai/docs/user-profiles',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-router',
+        title: 'Memory Router',
+        description: 'Intelligent context management and routing.',
+        order: 5,
+        prerequisite: 'supermemory-user-profiles',
+        resources: [
+          {
+            title: 'Memory Router Overview',
+            url: 'https://supermemory.ai/docs/memory-router/overview',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-connectors',
+        title: 'Connectors',
+        description: 'Integrate with Google Drive, Notion, OneDrive and more.',
+        order: 6,
+        prerequisite: 'supermemory-router',
+        resources: [
+          {
+            title: 'Connectors Overview',
+            url: 'https://supermemory.ai/docs/connectors/overview',
+            source: 'Supermemory',
+          },
+        ],
+      },
+      {
+        id: 'supermemory-cookbook',
+        title: 'Cookbooks & Examples',
+        description: 'Learn from practical examples and tutorials.',
+        order: 7,
+        prerequisite: 'supermemory-connectors',
+        resources: [
+          {
+            title: 'Cookbook Overview',
+            url: 'https://supermemory.ai/docs/cookbook/overview',
+            source: 'Supermemory',
           },
         ],
       },

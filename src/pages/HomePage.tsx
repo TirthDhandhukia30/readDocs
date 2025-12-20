@@ -6,6 +6,29 @@ import { skills } from '../data/skillPaths';
 import { TextGenerateEffect } from '../components/ui/Effects';
 import { SearchBar } from '../components/SearchBar';
 
+// New additions to showcase
+const newAdditions = [
+  {
+    id: 'supermemory',
+    name: 'Supermemory',
+    path: '/skill/supermemory',
+    logo: '/images/supermemory.png',
+    invertOnLight: true,
+  },
+  {
+    id: 'aceternity-ui',
+    name: 'Aceternity UI',
+    path: '/skill/aceternity-ui',
+    logo: '/images/aceternity.png',
+  },
+  {
+    id: 'dodo-payments',
+    name: 'Dodo Payments',
+    path: '/skill/dodo-payments',
+    logo: '/images/dodo.svg',
+  },
+];
+
 export function HomePage() {
   return (
     <div className="max-w-2xl mx-auto px-4">
@@ -35,6 +58,40 @@ export function HomePage() {
           <SearchBar />
         </motion.div>
       </section>
+
+      {/* New Additions */}
+      <motion.section
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.98, duration: 0.4 }}
+        className="pb-8"
+      >
+        <h2 className="text-[11px] uppercase tracking-widest text-[hsl(var(--muted-foreground))] mb-4 px-1">
+          New
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          {newAdditions.map((item, index) => (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.98 + index * 0.05, duration: 0.3 }}
+            >
+              <Link
+                to={item.path}
+                className="group flex items-center gap-2 px-3 py-2 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--card))] hover:bg-[hsl(var(--muted))] hover:border-[hsl(var(--foreground))]/10 transition-all duration-200"
+              >
+                <img 
+                  src={item.logo} 
+                  alt={item.name} 
+                  className={`w-4 h-4 ${item.invertOnLight ? 'invert dark:invert-0' : ''}`} 
+                />
+                <span className="font-medium text-sm">{item.name}</span>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
 
       {/* Domains & Languages */}
       <motion.section
@@ -184,6 +241,9 @@ export function HomePage() {
               ),
               'aceternity-ui': (
                 <img src="/images/aceternity.png" alt="Aceternity UI" className="w-4 h-4" />
+              ),
+              'supermemory': (
+                <img src="/images/supermemory.png" alt="Supermemory" className="w-4 h-4 invert dark:invert-0" />
               ),
               'react': (
                 <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">

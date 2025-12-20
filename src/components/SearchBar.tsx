@@ -58,6 +58,23 @@ function highlightMatch(text: string, query: string): React.ReactNode {
 export function SearchBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
+  const [placeholderIndex, setPlaceholderIndex] = useState(0);
+  const placeholders = [
+    'Search documentation...',
+    'Search across all docs',
+    'Try "useEffect" or "Prisma"',
+    'Find React, Next.js, Tailwind...',
+    'Explore 500+ documentation pages',
+    'Search "authentication" or "API"',
+  ];
+
+  // Rotate placeholder text
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPlaceholderIndex((prev) => (prev + 1) % placeholders.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [copiedUrl, setCopiedUrl] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -213,8 +230,21 @@ export function SearchBar() {
           "group cursor-text"
         )}
       >
-        <Search className="w-4 h-4" />
-        <span className="flex-1 text-left text-sm">Search documentation...</span>
+        <Search className="w-4 h-4 flex-shrink-0" />
+        <div className="flex-1 text-left text-sm h-5 overflow-hidden relative">
+          <AnimatePresence mode="wait">
+            <motion.span
+              key={placeholderIndex}
+              initial={{ y: 12, opacity: 0, filter: 'blur(4px)' }}
+              animate={{ y: 0, opacity: 1, filter: 'blur(0px)' }}
+              exit={{ y: -12, opacity: 0, filter: 'blur(4px)' }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
+              className="absolute inset-0"
+            >
+              {placeholders[placeholderIndex]}
+            </motion.span>
+          </AnimatePresence>
+        </div>
         {/* Desktop: show keyboard shortcut */}
         <kbd className={cn(
           "hidden sm:flex items-center gap-1 px-2 py-0.5",

@@ -1,11 +1,79 @@
 import { useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { Link, useNavigate, useLocation } from '@tanstack/react-router';
-import { Moon, Sun, Keyboard } from 'lucide-react';
+import { Moon, Sun, Keyboard, X, Copy, Check, ArrowRight, Coffee, CreditCard } from 'lucide-react';
 import { KeyboardShortcuts } from './KeyboardShortcuts';
 
 interface LayoutProps {
   children: ReactNode;
+}
+
+function DonateModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
+  const [copied, setCopied] = useState<string | null>(null);
+
+  const copyToClipboard = (text: string, type: string) => {
+    navigator.clipboard.writeText(text);
+    setCopied(type);
+    setTimeout(() => setCopied(null), 2000);
+  };
+
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={onClose} />
+      <div className="relative bg-[hsl(var(--background))] border border-[hsl(var(--border))] rounded-2xl p-6 max-w-sm w-full shadow-2xl">
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 p-1.5 rounded-full hover:bg-[hsl(var(--muted))] transition-colors"
+        >
+          <X className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />
+        </button>
+        
+        <div className="mb-6">
+          <h2 className="text-lg font-medium mb-1">Support readDocs</h2>
+          <p className="text-sm text-[hsl(var(--muted-foreground))]">
+            Help me get a proper domain
+          </p>
+        </div>
+
+        <div className="space-y-2">
+          {/* Buy Me a Coffee */}
+          <a
+            href="https://buymeacoffee.com/tirth30infn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between w-full px-4 py-3 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] hover:bg-[hsl(var(--muted))] hover:border-[hsl(var(--foreground))]/10 transition-all duration-200"
+          >
+            <div className="flex items-center gap-3">
+              <Coffee className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />
+              <div>
+                <p className="font-medium text-sm">Buy Me a Coffee</p>
+              </div>
+            </div>
+            <ArrowRight className="h-4 w-4 text-[hsl(var(--muted-foreground))] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
+          </a>
+
+          {/* UPI */}
+          <div className="flex items-center justify-between px-4 py-3 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))]">
+            <div className="flex items-center gap-3">
+              <CreditCard className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />
+              <div>
+                <p className="font-medium text-sm">UPI</p>
+                <p className="text-xs text-[hsl(var(--muted-foreground))] font-mono">9137813827@upi</p>
+              </div>
+            </div>
+            <button
+              onClick={() => copyToClipboard('9137813827@upi', 'upi')}
+              className="p-2 rounded-lg hover:bg-[hsl(var(--muted))] transition-colors"
+            >
+              {copied === 'upi' ? <Check className="h-4 w-4 text-green-500" /> : <Copy className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export function Layout({ children }: LayoutProps) {
@@ -17,6 +85,7 @@ export function Layout({ children }: LayoutProps) {
     return false;
   });
   const [showShortcuts, setShowShortcuts] = useState(false);
+  const [showDonate, setShowDonate] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -102,6 +171,22 @@ export function Layout({ children }: LayoutProps) {
         {children}
       </main>
 
+      {/* Help me get a domain */}
+      <section className="print:hidden">
+        <div className="max-w-2xl mx-auto px-6 pb-6">
+          <button
+            onClick={() => setShowDonate(true)}
+            className="group w-full flex items-center justify-between px-4 py-3 rounded-xl border border-dashed border-[hsl(var(--border))] hover:border-[hsl(var(--foreground))]/20 hover:bg-[hsl(var(--muted))]/50 transition-all duration-200"
+          >
+            <div className="flex items-center gap-3">
+              <Coffee className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />
+              <span className="text-sm text-[hsl(var(--muted-foreground))]">Help me get a domain</span>
+            </div>
+            <ArrowRight className="h-4 w-4 text-[hsl(var(--muted-foreground))] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
+          </button>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="mt-auto print:hidden">
         <div className="max-w-3xl mx-auto px-6 py-8">
@@ -121,6 +206,9 @@ export function Layout({ children }: LayoutProps) {
 
       {/* Keyboard shortcuts modal */}
       <KeyboardShortcuts isOpen={showShortcuts} onClose={() => setShowShortcuts(false)} />
+      
+      {/* Donate modal */}
+      <DonateModal isOpen={showDonate} onClose={() => setShowDonate(false)} />
     </div>
   );
 }
