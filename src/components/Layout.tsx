@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { Link, useNavigate, useLocation } from '@tanstack/react-router';
-import { Moon, Sun, Keyboard, X, Copy, Check, ArrowRight, Coffee, CreditCard } from 'lucide-react';
+import { Moon, Sun, Keyboard, X, Copy, Check, ArrowRight, Coffee, CreditCard, Star } from 'lucide-react';
 import { KeyboardShortcuts } from './KeyboardShortcuts';
 
 interface LayoutProps {
@@ -29,7 +29,7 @@ function DonateModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
         >
           <X className="h-4 w-4 text-[hsl(var(--muted-foreground))]" />
         </button>
-        
+
         <div className="mb-6">
           <h2 className="text-lg font-medium mb-1">Support readDocs</h2>
           <p className="text-sm text-[hsl(var(--muted-foreground))]">
@@ -145,8 +145,18 @@ export function Layout({ children }: LayoutProps) {
           <Link to="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
             readDocs
           </Link>
-          
+
           <div className="flex items-center gap-1">
+            <a
+              href="https://github.com/TirthDhandhukia30/readDocs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full hover:bg-[hsl(var(--muted))] transition-colors hidden sm:flex items-center gap-1.5"
+              aria-label="Star on GitHub"
+              title="Star on GitHub"
+            >
+              <Star className="h-4 w-4" />
+            </a>
             <button
               onClick={() => setShowShortcuts(true)}
               className="p-2 rounded-full hover:bg-[hsl(var(--muted))] transition-colors hidden sm:flex"
@@ -192,9 +202,9 @@ export function Layout({ children }: LayoutProps) {
         <div className="max-w-3xl mx-auto px-6 py-8">
           <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
             Made with <span className="text-red-500">♥</span>{' '}
-            <a 
-              href="https://tirthdhandhukia.com" 
-              target="_blank" 
+            <a
+              href="https://tirthdhandhukia.com"
+              target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[hsl(var(--foreground))] transition-colors"
             >
@@ -206,7 +216,7 @@ export function Layout({ children }: LayoutProps) {
 
       {/* Keyboard shortcuts modal */}
       <KeyboardShortcuts isOpen={showShortcuts} onClose={() => setShowShortcuts(false)} />
-      
+
       {/* Donate modal */}
       <DonateModal isOpen={showDonate} onClose={() => setShowDonate(false)} />
     </div>

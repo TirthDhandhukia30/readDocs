@@ -45,10 +45,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
   margin: 0;
   letter-spacing: -0.01em;
+  overscroll-behavior: none;
 }
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 ::-webkit-scrollbar {
