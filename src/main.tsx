@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
       <RouterProvider router={router} />
-      <Analytics />
     </ErrorBoundary>
+    <Analytics />
   </StrictMode>
 );
