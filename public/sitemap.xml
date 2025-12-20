@@ -1,110 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
-    <loc>https://readdocs.dev/</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  <!-- Skills -->
   <url>
-    <loc>https://readdocs.dev/skill/tailwindcss</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/tailwindcss</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/nextjs</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/nextjs</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/typescript</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/typescript</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/react-query</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/react-query</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/prisma</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/prisma</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/drizzle</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/drizzle</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/supabase</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/supabase</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/firebase</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/firebase</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/aws</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/aws</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/docker</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/docker</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/nodejs</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/nodejs</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/skill/fastapi</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/fastapi</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/domain/frontend</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/skill/react</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/shadcn-ui</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/framer-motion</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/better-auth</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/mongodb</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/redis</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/postgresql</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/vercel</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/cloudflare</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/bun</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/azure</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/linux</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/jwt</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/http</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/rest</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/aceternity-ui</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/supermemory</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/skill/dodo-payments</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Domains -->
+  <url>
+    <loc>https://readdocs.vercel.app/domain/frontend</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/domain/backend</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/domain/backend</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/domain/devops</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/domain/devops</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Languages -->
+  <url>
+    <loc>https://readdocs.vercel.app/language/rust</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/language/javascript</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/language/go</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://readdocs.dev/language/python</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://readdocs.vercel.app/language/kotlin</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readdocs.vercel.app/language/swift</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

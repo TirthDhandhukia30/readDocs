@@ -15,11 +15,11 @@
     "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
-    "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.561.0",
     "minisearch": "^7.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-helmet-async": "^2.0.5",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.18"
   },
