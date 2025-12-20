@@ -1,8 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import type { ReactNode } from 'react';
 import { Link, useNavigate, useLocation } from '@tanstack/react-router';
 import { Moon, Sun, Keyboard, X, Copy, Check, ArrowRight, Coffee, CreditCard, Star } from 'lucide-react';
 import { KeyboardShortcuts } from './KeyboardShortcuts';
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 interface LayoutProps {
   children: ReactNode;
@@ -77,6 +79,8 @@ function DonateModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
 }
 
 export function Layout({ children }: LayoutProps) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const locomotiveScrollRef = useRef<LocomotiveScroll | null>(null);
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== 'undefined') {
       return localStorage.getItem('theme') === 'dark' ||
@@ -89,9 +93,30 @@ export function Layout({ children }: LayoutProps) {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Initialize Locomotive Scroll
+  useEffect(() => {
+    if (!scrollRef.current) return;
+
+    locomotiveScrollRef.current = new LocomotiveScroll({
+      el: scrollRef.current,
+      smooth: true,
+      smoothMobile: false,
+      multiplier: 0.8,
+      lerp: 0.08,
+    });
+
+    return () => {
+      locomotiveScrollRef.current?.destroy();
+    };
+  }, []);
+
   // Scroll to top on route change
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (locomotiveScrollRef.current) {
+      locomotiveScrollRef.current.scrollTo(0, { duration: 0, disableLerp: true });
+    } else {
+      window.scrollTo(0, 0);
+    }
   }, [location.pathname]);
 
   useEffect(() => {
@@ -138,9 +163,13 @@ export function Layout({ children }: LayoutProps) {
   }, [navigate, location.pathname, showShortcuts]);
 
   return (
-    <div className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))] flex flex-col">
+    <div
+      ref={scrollRef}
+      data-scroll-container
+      className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))] flex flex-col"
+    >
       {/* Header */}
-      <header className="w-full print:hidden">
+      <header className="w-full print:hidden" data-scroll-section>
         <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
           <Link to="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
             readDocs
@@ -177,12 +206,12 @@ export function Layout({ children }: LayoutProps) {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 px-6">
+      <main className="flex-1 px-6" data-scroll-section>
         {children}
       </main>
 
       {/* Help me get a domain */}
-      <section className="print:hidden">
+      <section className="print:hidden" data-scroll-section>
         <div className="max-w-2xl mx-auto px-6 pb-6">
           <button
             onClick={() => setShowDonate(true)}
@@ -198,7 +227,7 @@ export function Layout({ children }: LayoutProps) {
       </section>
 
       {/* Footer */}
-      <footer className="mt-auto print:hidden">
+      <footer className="mt-auto print:hidden" data-scroll-section>
         <div className="max-w-3xl mx-auto px-6 py-8">
           <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
             Made with <span className="text-red-500">♥</span>{' '}
