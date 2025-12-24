@@ -17,14 +17,14 @@ export const nodejsEntries: SearchEntry[] = [
   { id: 'node-child-process', title: 'Child Process', description: 'Spawn processes', url: 'https://nodejs.org/api/child_process.html', category: 'Node.js', source: 'Node.js', keywords: ['child_process', 'spawn', 'exec', 'fork', 'execSync'], aliases: ['spawn', 'exec'], priority: 70 },
   { id: 'node-util', title: 'Util', description: 'Utility functions', url: 'https://nodejs.org/api/util.html', category: 'Node.js', source: 'Node.js', keywords: ['util', 'promisify', 'format', 'inspect'], aliases: ['promisify'], priority: 70 },
   { id: 'node-assert', title: 'Assert', description: 'Assertion testing', url: 'https://nodejs.org/api/assert.html', category: 'Node.js', source: 'Node.js', keywords: ['assert', 'assertion', 'test', 'equal', 'strictEqual'], priority: 65 },
-  
+
   // Package Management
   { id: 'npm-intro', title: 'npm', description: 'Node Package Manager', url: 'https://docs.npmjs.com/', category: 'Node.js', source: 'npm', keywords: ['npm', 'package', 'install', 'node_modules'], priority: 90 },
   { id: 'npm-package-json', title: 'package.json', description: 'Package configuration', url: 'https://docs.npmjs.com/cli/v10/configuring-npm/package-json', category: 'Node.js', source: 'npm', keywords: ['package.json', 'dependencies', 'devDependencies', 'scripts'], aliases: ['package.json'], priority: 90 },
   { id: 'npm-scripts', title: 'npm scripts', description: 'Package scripts', url: 'https://docs.npmjs.com/cli/v10/using-npm/scripts', category: 'Node.js', source: 'npm', keywords: ['scripts', 'npm run', 'npm start', 'npm test', 'npm build'], aliases: ['npm run'], priority: 85 },
   { id: 'npm-install', title: 'npm install', description: 'Install packages', url: 'https://docs.npmjs.com/cli/v10/commands/npm-install', category: 'Node.js', source: 'npm', keywords: ['npm install', 'npm i', 'install', 'add package'], aliases: ['npm i'], priority: 90 },
   { id: 'npm-workspaces', title: 'npm Workspaces', description: 'Monorepo workspaces', url: 'https://docs.npmjs.com/cli/v10/using-npm/workspaces', category: 'Node.js', source: 'npm', keywords: ['workspaces', 'monorepo', 'workspace'], priority: 70 },
-  
+
   // ESM vs CommonJS
   { id: 'node-esm', title: 'ES Modules', description: 'ECMAScript modules', url: 'https://nodejs.org/api/esm.html', category: 'Node.js', source: 'Node.js', keywords: ['esm', 'es modules', 'import', 'export', 'type: module'], aliases: ['import', 'export'], priority: 85 },
   { id: 'node-commonjs', title: 'CommonJS', description: 'CommonJS modules', url: 'https://nodejs.org/api/modules.html', category: 'Node.js', source: 'Node.js', keywords: ['commonjs', 'cjs', 'require', 'module.exports'], aliases: ['require', 'module.exports'], priority: 80 },
@@ -42,14 +42,14 @@ export const gitEntries: SearchEntry[] = [
   { id: 'git-status', title: 'git status', description: 'Check status', url: 'https://git-scm.com/docs/git-status', category: 'Git', source: 'Git', keywords: ['status', 'check', 'changes', 'modified'], aliases: ['git status'], priority: 90 },
   { id: 'git-log', title: 'git log', description: 'View commit history', url: 'https://git-scm.com/docs/git-log', category: 'Git', source: 'Git', keywords: ['log', 'history', 'commits', 'git log'], aliases: ['git log'], priority: 85 },
   { id: 'git-diff', title: 'git diff', description: 'Show changes', url: 'https://git-scm.com/docs/git-diff', category: 'Git', source: 'Git', keywords: ['diff', 'changes', 'difference', 'compare'], aliases: ['git diff'], priority: 85 },
-  
+
   // Branching
   { id: 'git-branch', title: 'git branch', description: 'Manage branches', url: 'https://git-scm.com/docs/git-branch', category: 'Git', source: 'Git', keywords: ['branch', 'branches', 'list branches', 'create branch', 'delete branch'], aliases: ['git branch'], priority: 90 },
   { id: 'git-checkout', title: 'git checkout', description: 'Switch branches', url: 'https://git-scm.com/docs/git-checkout', category: 'Git', source: 'Git', keywords: ['checkout', 'switch', 'change branch'], aliases: ['git checkout'], priority: 85 },
   { id: 'git-switch', title: 'git switch', description: 'Switch branches (modern)', url: 'https://git-scm.com/docs/git-switch', category: 'Git', source: 'Git', keywords: ['switch', 'change branch', 'switch branch'], aliases: ['git switch'], priority: 80 },
   { id: 'git-merge', title: 'git merge', description: 'Merge branches', url: 'https://git-scm.com/docs/git-merge', category: 'Git', source: 'Git', keywords: ['merge', 'combine', 'join branches'], aliases: ['git merge'], priority: 90 },
   { id: 'git-rebase', title: 'git rebase', description: 'Rebase commits', url: 'https://git-scm.com/docs/git-rebase', category: 'Git', source: 'Git', keywords: ['rebase', 'replay', 'linear history'], aliases: ['git rebase'], priority: 80 },
-  
+
   // Advanced
   { id: 'git-stash', title: 'git stash', description: 'Stash changes', url: 'https://git-scm.com/docs/git-stash', category: 'Git', source: 'Git', keywords: ['stash', 'save', 'temporary', 'stash pop', 'stash apply'], aliases: ['git stash'], priority: 85 },
   { id: 'git-reset', title: 'git reset', description: 'Reset changes', url: 'https://git-scm.com/docs/git-reset', category: 'Git', source: 'Git', keywords: ['reset', 'undo', 'unstage', 'reset --hard', 'reset --soft'], aliases: ['git reset'], priority: 85 },
@@ -57,7 +57,7 @@ export const gitEntries: SearchEntry[] = [
   { id: 'git-cherry-pick', title: 'git cherry-pick', description: 'Apply specific commits', url: 'https://git-scm.com/docs/git-cherry-pick', category: 'Git', source: 'Git', keywords: ['cherry-pick', 'cherry pick', 'pick commit'], aliases: ['git cherry-pick'], priority: 75 },
   { id: 'git-remote', title: 'git remote', description: 'Manage remotes', url: 'https://git-scm.com/docs/git-remote', category: 'Git', source: 'Git', keywords: ['remote', 'origin', 'upstream', 'add remote'], aliases: ['git remote'], priority: 80 },
   { id: 'git-tag', title: 'git tag', description: 'Manage tags', url: 'https://git-scm.com/docs/git-tag', category: 'Git', source: 'Git', keywords: ['tag', 'tags', 'version', 'release'], aliases: ['git tag'], priority: 75 },
-  
+
   // Config
   { id: 'git-config', title: 'git config', description: 'Git configuration', url: 'https://git-scm.com/docs/git-config', category: 'Git', source: 'Git', keywords: ['config', 'configure', 'user.name', 'user.email', 'settings'], aliases: ['git config'], priority: 85 },
   { id: 'git-gitignore', title: '.gitignore', description: 'Ignore files', url: 'https://git-scm.com/docs/gitignore', category: 'Git', source: 'Git', keywords: ['gitignore', '.gitignore', 'ignore', 'exclude'], aliases: ['.gitignore'], priority: 90 },

@@ -37,14 +37,14 @@ interface GroupedResults {
 // Highlight matching text in search results
 function highlightMatch(text: string, query: string): React.ReactNode {
   if (!query.trim()) return text;
-  
+
   const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
   if (terms.length === 0) return text;
-  
+
   // Create a regex pattern that matches any of the search terms
   const pattern = new RegExp(`(${terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
   const parts = text.split(pattern);
-  
+
   return parts.map((part, i) => {
     const isMatch = terms.some(term => part.toLowerCase() === term.toLowerCase());
     return isMatch ? (
@@ -84,16 +84,16 @@ export function SearchBar() {
   // Filter results based on query with MiniSearch
   const results = useMemo(() => {
     if (!query.trim()) return [];
-    
+
     const searchTerm = query.trim();
-    
+
     // Use MiniSearch for fuzzy search
     const searchResults = miniSearch.search(searchTerm, {
       boost: { title: 3, keywords: 2, aliases: 2, description: 1 },
       fuzzy: 0.2,
       prefix: true,
     });
-    
+
     // Map to full entries and sort by score + priority
     return searchResults
       .slice(0, 12)
@@ -132,14 +132,14 @@ export function SearchBar() {
         e.preventDefault();
         setIsOpen(true);
       }
-      
+
       // Close with Escape
       if (e.key === 'Escape') {
         setIsOpen(false);
         setQuery('');
       }
     };
-    
+
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, []);
@@ -220,7 +220,7 @@ export function SearchBar() {
       <button
         onClick={() => setIsOpen(true)}
         className={cn(
-          "flex items-center gap-3 px-4 py-3 w-full max-w-xl mx-auto",
+          "flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2.5 sm:py-3 w-full max-w-xl mx-auto",
           "bg-[hsl(var(--muted))]",
           "border border-[hsl(var(--border))]",
           "rounded-xl",
@@ -231,7 +231,7 @@ export function SearchBar() {
         )}
       >
         <Search className="w-4 h-4 flex-shrink-0" />
-        <div className="flex-1 text-left text-sm h-5 overflow-hidden relative">
+        <div className="flex-1 text-left text-xs sm:text-sm h-5 overflow-hidden relative min-w-0">
           <AnimatePresence mode="wait">
             <motion.span
               key={placeholderIndex}
@@ -239,7 +239,7 @@ export function SearchBar() {
               animate={{ y: 0, opacity: 1, filter: 'blur(0px)' }}
               exit={{ y: -12, opacity: 0, filter: 'blur(4px)' }}
               transition={{ duration: 0.3, ease: 'easeInOut' }}
-              className="absolute inset-0"
+              className="absolute inset-0 truncate"
             >
               {placeholders[placeholderIndex]}
             </motion.span>
@@ -247,7 +247,7 @@ export function SearchBar() {
         </div>
         {/* Desktop: show keyboard shortcut */}
         <kbd className={cn(
-          "hidden sm:flex items-center gap-1 px-2 py-0.5",
+          "hidden sm:flex items-center gap-1 px-2 py-0.5 flex-shrink-0",
           "bg-[hsl(var(--background))]",
           "border border-[hsl(var(--border))]",
           "rounded text-xs font-medium",
@@ -257,8 +257,8 @@ export function SearchBar() {
           <span>K</span>
         </kbd>
         {/* Mobile: show tap hint */}
-        <span className="sm:hidden text-xs text-[hsl(var(--muted-foreground))]">
-          Tap to search
+        <span className="sm:hidden text-xs text-[hsl(var(--muted-foreground))] flex-shrink-0 whitespace-nowrap">
+          Tap
         </span>
       </button>
 
@@ -285,17 +285,20 @@ export function SearchBar() {
               exit={{ opacity: 0, scale: 0.95, y: -20 }}
               transition={{ duration: 0.15 }}
               className={cn(
-                "fixed left-1/2 top-[15%] -translate-x-1/2 z-50",
-                "w-full max-w-2xl mx-4",
+                "fixed z-50",
+                "left-4 right-4 top-[10%]",
+                "sm:left-1/2 sm:right-auto sm:top-[15%] sm:-translate-x-1/2",
+                "w-auto sm:w-full sm:max-w-2xl",
                 "bg-[hsl(var(--background))]",
                 "border border-[hsl(var(--border))]",
                 "rounded-2xl shadow-2xl",
-                "overflow-hidden"
+                "overflow-hidden",
+                "max-h-[85vh] flex flex-col"
               )}
             >
               {/* Search input */}
-              <div className="flex items-center gap-3 px-4 py-4 border-b border-[hsl(var(--border))]">
-                <Search className="w-5 h-5 text-[hsl(var(--muted-foreground))]" />
+              <div className="flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-3 sm:py-4 border-b border-[hsl(var(--border))] flex-shrink-0">
+                <Search className="w-4 h-4 sm:w-5 sm:h-5 text-[hsl(var(--muted-foreground))] flex-shrink-0" />
                 <input
                   ref={inputRef}
                   type="text"
@@ -304,13 +307,13 @@ export function SearchBar() {
                   onKeyDown={handleKeyDown}
                   placeholder="Search documentation..."
                   className={cn(
-                    "flex-1 bg-transparent outline-none",
+                    "flex-1 min-w-0 bg-transparent outline-none text-sm sm:text-base",
                     "text-[hsl(var(--foreground))]",
                     "placeholder:text-[hsl(var(--muted-foreground))]"
                   )}
                 />
                 <kbd className={cn(
-                  "px-2 py-1 rounded text-xs",
+                  "px-1.5 sm:px-2 py-0.5 sm:py-1 rounded text-xs flex-shrink-0",
                   "bg-[hsl(var(--muted))]",
                   "text-[hsl(var(--muted-foreground))]"
                 )}>
@@ -319,7 +322,7 @@ export function SearchBar() {
               </div>
 
               {/* Results */}
-              <div ref={resultsRef} className="max-h-[400px] overflow-y-auto">
+              <div ref={resultsRef} className="flex-1 min-h-0 max-h-[50vh] sm:max-h-[400px] overflow-y-auto">
                 {query && results.length === 0 && (
                   <div className="px-4 py-8 text-center text-[hsl(var(--muted-foreground))]">
                     <p>No results found for "{query}"</p>
@@ -361,7 +364,7 @@ export function SearchBar() {
                               {highlightMatch(entry.description, query)}
                             </p>
                           </div>
-                          
+
                           <div className="flex items-center gap-2 flex-shrink-0">
                             {/* Copy button */}
                             <button
@@ -384,7 +387,7 @@ export function SearchBar() {
                                 <Copy className="w-3.5 h-3.5" />
                               )}
                             </button>
-                            
+
                             <ExternalLink className={cn(
                               "w-4 h-4 flex-shrink-0",
                               "text-[hsl(var(--muted-foreground))]",
@@ -449,7 +452,7 @@ export function SearchBar() {
                         </div>
                       </div>
                     )}
-                    
+
                     {/* Quick searches */}
                     <div>
                       <p className="text-sm text-[hsl(var(--muted-foreground))] mb-3">
@@ -480,20 +483,26 @@ export function SearchBar() {
 
               {/* Footer */}
               <div className={cn(
-                "px-4 py-3 border-t border-[hsl(var(--border))]",
-                "flex items-center gap-4 text-xs text-[hsl(var(--muted-foreground))]"
+                "px-3 sm:px-4 py-2 sm:py-3 border-t border-[hsl(var(--border))]",
+                "flex items-center justify-between sm:justify-start gap-2 sm:gap-4 text-xs text-[hsl(var(--muted-foreground))]",
+                "flex-shrink-0"
               )}>
-                <span className="flex items-center gap-1">
+                {/* Desktop keyboard hints */}
+                <span className="hidden sm:flex items-center gap-1">
                   <kbd className="px-1.5 py-0.5 rounded bg-[hsl(var(--muted))]">↑</kbd>
                   <kbd className="px-1.5 py-0.5 rounded bg-[hsl(var(--muted))]">↓</kbd>
                   <span>Navigate</span>
                 </span>
-                <span className="flex items-center gap-1">
+                <span className="hidden sm:flex items-center gap-1">
                   <kbd className="px-1.5 py-0.5 rounded bg-[hsl(var(--muted))]">↵</kbd>
                   <span>Open</span>
                 </span>
-                <span className="ml-auto text-[hsl(var(--muted-foreground))]/60">
-                  {searchIndex.length} docs indexed
+                {/* Mobile hint */}
+                <span className="sm:hidden text-[hsl(var(--muted-foreground))]/70">
+                  Tap result to open
+                </span>
+                <span className="sm:ml-auto text-[hsl(var(--muted-foreground))]/60">
+                  {searchIndex.length} docs
                 </span>
               </div>
             </motion.div>

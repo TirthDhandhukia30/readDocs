@@ -8,18 +8,18 @@ import { nextjsEntries } from './nextjs';
 import { nodejsEntries, gitEntries, pythonEntries, bunEntries, httpEntries, restEntries, linuxEntries, fastapiEntries, jwtEntries } from './other';
 import { cloudEntries } from './cloud';
 import { languageEntries, rustEntries, goEntries, kotlinEntries, swiftEntries } from './languages';
-import { 
-  tanstackQueryEntries, 
-  prismaEntries, 
-  drizzleEntries, 
-  zodEntries, 
-  trpcEntries, 
+import {
+  tanstackQueryEntries,
+  prismaEntries,
+  drizzleEntries,
+  zodEntries,
+  trpcEntries,
   betterAuthEntries,
   dodoPaymentsEntries,
   supermemoryEntries,
   shadcnEntries,
   aceternityEntries,
-  framerMotionEntries, 
+  framerMotionEntries,
   zustandEntries,
   vitestEntries,
   jestEntries,
