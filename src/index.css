@@ -53,6 +53,25 @@ html {
   overscroll-behavior: none;
 }
 
+/* Disable drag behavior on links and images */
+a,
+img,
+button {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
