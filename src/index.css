@@ -46,6 +46,10 @@ body {
   margin: 0;
   letter-spacing: -0.01em;
   overscroll-behavior: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html {

@@ -261,7 +261,25 @@ export function Layout({ children }: LayoutProps) {
 
       {/* Footer */}
       <footer className="mt-auto print:hidden">
-        <div className="max-w-3xl mx-auto px-6 py-8">
+        <div className="max-w-3xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
+          <a
+            href="https://peerlist.io/tirth30info/project/readdocs"
+            target="_blank"
+            rel="noreferrer"
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg border transition-colors ${
+              isDark 
+                ? 'bg-[#0d0d0d] border-[#333] hover:border-[#555]' 
+                : 'bg-white border-[#e5e5e5] hover:border-[#ccc]'
+            }`}
+          >
+            <span className={`text-sm font-medium ${isDark ? 'text-white' : 'text-[#0d0d0d]'}`}>
+              Launched on
+            </span>
+            <svg width="20" height="20" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M28 0C6.22222 0 0 6.22222 0 28C0 49.7778 6.23778 56 28 56C49.7622 56 56 49.7778 56 28C56 6.22222 49.7622 0 28 0Z" fill="#00AA45"/>
+              <path fillRule="evenodd" clipRule="evenodd" d="M18 12H29.0769C36.2141 12 42 17.5716 42 24.4444C42 31.3173 36.2141 36.8889 29.0769 36.8889H25.3846V44H18V12ZM25.3846 29.7778H29.0769C32.1357 29.7778 34.6154 27.39 34.6154 24.4444C34.6154 21.4989 32.1357 19.1111 29.0769 19.1111H25.3846V29.7778Z" fill="white"/>
+            </svg>
+          </a>
           <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
             Made with <span className="text-red-500">♥</span>{' '}
             <a
