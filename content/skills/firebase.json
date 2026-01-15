@@ -1,0 +1,152 @@
+{
+  "id": "firebase",
+  "slug": "firebase",
+  "name": "Firebase",
+  "category": "cloud",
+  "description": "Google's app development platform",
+  "summary": "Master Firebase through 5 structured learning steps.",
+  "longDescription": "Firebase is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "firebase-setup",
+      "title": "Setup",
+      "description": "Set up Firebase in your project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Add Firebase to Web",
+          "url": "https://firebase.google.com/docs/web/setup",
+          "source": "Firebase"
+        },
+        {
+          "title": "Firebase Console",
+          "url": "https://firebase.google.com/docs/projects/learn-more",
+          "source": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": "firebase-auth",
+      "title": "Authentication",
+      "description": "User authentication with Firebase.",
+      "order": 2,
+      "prerequisite": "firebase-setup",
+      "resources": [
+        {
+          "title": "Auth Overview",
+          "url": "https://firebase.google.com/docs/auth",
+          "source": "Firebase"
+        },
+        {
+          "title": "Email/Password Auth",
+          "url": "https://firebase.google.com/docs/auth/web/password-auth",
+          "source": "Firebase"
+        },
+        {
+          "title": "Google Sign-In",
+          "url": "https://firebase.google.com/docs/auth/web/google-signin",
+          "source": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": "firebase-firestore",
+      "title": "Firestore",
+      "description": "NoSQL cloud database.",
+      "order": 3,
+      "prerequisite": "firebase-setup",
+      "resources": [
+        {
+          "title": "Firestore Overview",
+          "url": "https://firebase.google.com/docs/firestore",
+          "source": "Firebase"
+        },
+        {
+          "title": "Add Data",
+          "url": "https://firebase.google.com/docs/firestore/manage-data/add-data",
+          "source": "Firebase"
+        },
+        {
+          "title": "Get Data",
+          "url": "https://firebase.google.com/docs/firestore/query-data/get-data",
+          "source": "Firebase"
+        },
+        {
+          "title": "Realtime Updates",
+          "url": "https://firebase.google.com/docs/firestore/query-data/listen",
+          "source": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": "firebase-storage",
+      "title": "Cloud Storage",
+      "description": "File uploads and storage.",
+      "order": 4,
+      "prerequisite": "firebase-auth",
+      "resources": [
+        {
+          "title": "Storage Overview",
+          "url": "https://firebase.google.com/docs/storage",
+          "source": "Firebase"
+        },
+        {
+          "title": "Upload Files",
+          "url": "https://firebase.google.com/docs/storage/web/upload-files",
+          "source": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": "firebase-hosting",
+      "title": "Hosting",
+      "description": "Deploy your web app.",
+      "order": 5,
+      "prerequisite": "firebase-setup",
+      "resources": [
+        {
+          "title": "Hosting Overview",
+          "url": "https://firebase.google.com/docs/hosting",
+          "source": "Firebase"
+        },
+        {
+          "title": "Deploy",
+          "url": "https://firebase.google.com/docs/hosting/quickstart",
+          "source": "Firebase"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "firebase",
+    "cloud",
+    "setup",
+    "authentication",
+    "firestore"
+  ],
+  "relatedSkillIds": [
+    "supabase",
+    "aws",
+    "azure"
+  ],
+  "faqs": [
+    {
+      "question": "What is Firebase and why should I learn it?",
+      "answer": "Firebase is a widely-used cloud in modern software development. Learning Firebase will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Firebase?",
+      "answer": "The time to learn Firebase varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Firebase?",
+      "answer": "Before diving into Firebase, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

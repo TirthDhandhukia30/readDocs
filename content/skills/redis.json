@@ -1,0 +1,123 @@
+{
+  "id": "redis",
+  "slug": "redis",
+  "name": "Redis",
+  "category": "tool",
+  "description": "In-memory data store",
+  "summary": "Master Redis through 4 structured learning steps.",
+  "longDescription": "Redis is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "redis-getting-started",
+      "title": "Getting Started",
+      "description": "Install and run Redis.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://redis.io/docs/getting-started/",
+          "source": "Redis"
+        },
+        {
+          "title": "Install Redis",
+          "url": "https://redis.io/docs/install/",
+          "source": "Redis"
+        }
+      ]
+    },
+    {
+      "id": "redis-data-types",
+      "title": "Data Types",
+      "description": "Strings, lists, sets, hashes, and more.",
+      "order": 2,
+      "prerequisite": "redis-getting-started",
+      "resources": [
+        {
+          "title": "Data Types",
+          "url": "https://redis.io/docs/data-types/",
+          "source": "Redis"
+        },
+        {
+          "title": "Strings",
+          "url": "https://redis.io/docs/data-types/strings/",
+          "source": "Redis"
+        },
+        {
+          "title": "Hashes",
+          "url": "https://redis.io/docs/data-types/hashes/",
+          "source": "Redis"
+        }
+      ]
+    },
+    {
+      "id": "redis-commands",
+      "title": "Commands",
+      "description": "Core Redis commands.",
+      "order": 3,
+      "prerequisite": "redis-data-types",
+      "resources": [
+        {
+          "title": "Commands Reference",
+          "url": "https://redis.io/commands/",
+          "source": "Redis"
+        },
+        {
+          "title": "Transactions",
+          "url": "https://redis.io/docs/interact/transactions/",
+          "source": "Redis"
+        }
+      ]
+    },
+    {
+      "id": "redis-clients",
+      "title": "Client Libraries",
+      "description": "Connect from Node.js, Python, etc.",
+      "order": 4,
+      "prerequisite": "redis-commands",
+      "resources": [
+        {
+          "title": "Node.js Client",
+          "url": "https://redis.io/docs/clients/nodejs/",
+          "source": "Redis"
+        },
+        {
+          "title": "Python Client",
+          "url": "https://redis.io/docs/clients/python/",
+          "source": "Redis"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "redis",
+    "tool",
+    "getting started",
+    "data types",
+    "commands"
+  ],
+  "relatedSkillIds": [
+    "prisma",
+    "drizzle",
+    "docker"
+  ],
+  "faqs": [
+    {
+      "question": "What is Redis and why should I learn it?",
+      "answer": "Redis is a widely-used tool in modern software development. Learning Redis will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Redis?",
+      "answer": "The time to learn Redis varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Redis?",
+      "answer": "Before diving into Redis, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

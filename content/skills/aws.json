@@ -1,0 +1,156 @@
+{
+  "id": "aws",
+  "slug": "aws",
+  "name": "AWS",
+  "category": "cloud",
+  "description": "Amazon Web Services cloud platform",
+  "summary": "Master AWS through 6 structured learning steps.",
+  "longDescription": "AWS is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "aws-getting-started",
+      "title": "Getting Started",
+      "description": "Introduction to AWS.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://aws.amazon.com/getting-started/",
+          "source": "AWS"
+        },
+        {
+          "title": "AWS Free Tier",
+          "url": "https://aws.amazon.com/free/",
+          "source": "AWS"
+        }
+      ]
+    },
+    {
+      "id": "aws-s3",
+      "title": "S3 Storage",
+      "description": "Simple Storage Service for files.",
+      "order": 2,
+      "prerequisite": "aws-getting-started",
+      "resources": [
+        {
+          "title": "S3 Documentation",
+          "url": "https://docs.aws.amazon.com/s3/",
+          "source": "AWS"
+        },
+        {
+          "title": "S3 Getting Started",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html",
+          "source": "AWS"
+        }
+      ]
+    },
+    {
+      "id": "aws-lambda",
+      "title": "Lambda",
+      "description": "Serverless compute functions.",
+      "order": 3,
+      "prerequisite": "aws-getting-started",
+      "resources": [
+        {
+          "title": "Lambda Documentation",
+          "url": "https://docs.aws.amazon.com/lambda/",
+          "source": "AWS"
+        },
+        {
+          "title": "Lambda Getting Started",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html",
+          "source": "AWS"
+        }
+      ]
+    },
+    {
+      "id": "aws-dynamodb",
+      "title": "DynamoDB",
+      "description": "NoSQL database service.",
+      "order": 4,
+      "prerequisite": "aws-getting-started",
+      "resources": [
+        {
+          "title": "DynamoDB Documentation",
+          "url": "https://docs.aws.amazon.com/dynamodb/",
+          "source": "AWS"
+        },
+        {
+          "title": "DynamoDB Getting Started",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html",
+          "source": "AWS"
+        }
+      ]
+    },
+    {
+      "id": "aws-ec2",
+      "title": "EC2",
+      "description": "Virtual servers in the cloud.",
+      "order": 5,
+      "prerequisite": "aws-getting-started",
+      "resources": [
+        {
+          "title": "EC2 Documentation",
+          "url": "https://docs.aws.amazon.com/ec2/",
+          "source": "AWS"
+        },
+        {
+          "title": "EC2 Getting Started",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html",
+          "source": "AWS"
+        }
+      ]
+    },
+    {
+      "id": "aws-amplify",
+      "title": "Amplify",
+      "description": "Full-stack app development.",
+      "order": 6,
+      "prerequisite": "aws-getting-started",
+      "resources": [
+        {
+          "title": "Amplify Documentation",
+          "url": "https://docs.amplify.aws/",
+          "source": "AWS"
+        },
+        {
+          "title": "Amplify Getting Started",
+          "url": "https://docs.amplify.aws/start/",
+          "source": "AWS"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "aws",
+    "cloud",
+    "getting started",
+    "s3 storage",
+    "lambda"
+  ],
+  "relatedSkillIds": [
+    "supabase",
+    "firebase",
+    "azure"
+  ],
+  "faqs": [
+    {
+      "question": "What is AWS and why should I learn it?",
+      "answer": "AWS is a widely-used cloud in modern software development. Learning AWS will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn AWS?",
+      "answer": "The time to learn AWS varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning AWS?",
+      "answer": "Before diving into AWS, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

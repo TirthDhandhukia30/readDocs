@@ -1,0 +1,133 @@
+{
+  "id": "trpc",
+  "slug": "trpc",
+  "name": "tRPC",
+  "category": "framework",
+  "description": "End-to-end typesafe APIs",
+  "summary": "Master tRPC through 4 structured learning steps.",
+  "longDescription": "tRPC is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "trpc-quickstart",
+      "title": "Quickstart",
+      "description": "Set up tRPC in your project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Quickstart",
+          "url": "https://trpc.io/docs/quickstart",
+          "source": "tRPC"
+        },
+        {
+          "title": "Concepts",
+          "url": "https://trpc.io/docs/concepts",
+          "source": "tRPC"
+        }
+      ]
+    },
+    {
+      "id": "trpc-routers",
+      "title": "Routers & Procedures",
+      "description": "Define your API structure.",
+      "order": 2,
+      "prerequisite": "trpc-quickstart",
+      "resources": [
+        {
+          "title": "Defining Routers",
+          "url": "https://trpc.io/docs/server/routers",
+          "source": "tRPC"
+        },
+        {
+          "title": "Procedures",
+          "url": "https://trpc.io/docs/server/procedures",
+          "source": "tRPC"
+        },
+        {
+          "title": "Context",
+          "url": "https://trpc.io/docs/server/context",
+          "source": "tRPC"
+        }
+      ]
+    },
+    {
+      "id": "trpc-client",
+      "title": "Client Usage",
+      "description": "Call your API from the frontend.",
+      "order": 3,
+      "prerequisite": "trpc-routers",
+      "resources": [
+        {
+          "title": "React Query Integration",
+          "url": "https://trpc.io/docs/client/react",
+          "source": "tRPC"
+        },
+        {
+          "title": "useQuery",
+          "url": "https://trpc.io/docs/client/react/useQuery",
+          "source": "tRPC"
+        },
+        {
+          "title": "useMutation",
+          "url": "https://trpc.io/docs/client/react/useMutation",
+          "source": "tRPC"
+        }
+      ]
+    },
+    {
+      "id": "trpc-advanced",
+      "title": "Advanced",
+      "description": "Middlewares, subscriptions, error handling.",
+      "order": 4,
+      "prerequisite": "trpc-client",
+      "resources": [
+        {
+          "title": "Middlewares",
+          "url": "https://trpc.io/docs/server/middlewares",
+          "source": "tRPC"
+        },
+        {
+          "title": "Error Handling",
+          "url": "https://trpc.io/docs/server/error-handling",
+          "source": "tRPC"
+        },
+        {
+          "title": "Authorization",
+          "url": "https://trpc.io/docs/server/authorization",
+          "source": "tRPC"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "trpc",
+    "framework",
+    "quickstart",
+    "routers & procedures",
+    "client usage"
+  ],
+  "relatedSkillIds": [
+    "tailwindcss",
+    "nextjs",
+    "fastapi"
+  ],
+  "faqs": [
+    {
+      "question": "What is tRPC and why should I learn it?",
+      "answer": "tRPC is a widely-used framework in modern software development. Learning tRPC will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn tRPC?",
+      "answer": "The time to learn tRPC varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning tRPC?",
+      "answer": "Before diving into tRPC, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "prisma",
+  "slug": "prisma",
+  "name": "Prisma",
+  "category": "tool",
+  "description": "Next-generation Node.js ORM",
+  "summary": "Master Prisma through 4 structured learning steps.",
+  "longDescription": "Prisma is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "prisma-quickstart",
+      "title": "Quickstart",
+      "description": "Set up Prisma with your database.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Quickstart",
+          "url": "https://www.prisma.io/docs/getting-started/quickstart-sqlite",
+          "source": "Prisma"
+        },
+        {
+          "title": "Setup Prisma",
+          "url": "https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql",
+          "source": "Prisma"
+        }
+      ]
+    },
+    {
+      "id": "prisma-schema",
+      "title": "Prisma Schema",
+      "description": "Define your data model.",
+      "order": 2,
+      "prerequisite": "prisma-quickstart",
+      "resources": [
+        {
+          "title": "Prisma Schema",
+          "url": "https://www.prisma.io/docs/orm/prisma-schema/overview",
+          "source": "Prisma"
+        },
+        {
+          "title": "Data Model",
+          "url": "https://www.prisma.io/docs/orm/prisma-schema/data-model/models",
+          "source": "Prisma"
+        },
+        {
+          "title": "Relations",
+          "url": "https://www.prisma.io/docs/orm/prisma-schema/data-model/relations",
+          "source": "Prisma"
+        }
+      ]
+    },
+    {
+      "id": "prisma-client",
+      "title": "Prisma Client",
+      "description": "Query your database with type safety.",
+      "order": 3,
+      "prerequisite": "prisma-schema",
+      "resources": [
+        {
+          "title": "CRUD",
+          "url": "https://www.prisma.io/docs/orm/prisma-client/queries/crud",
+          "source": "Prisma"
+        },
+        {
+          "title": "Filtering and Sorting",
+          "url": "https://www.prisma.io/docs/orm/prisma-client/queries/filtering-and-sorting",
+          "source": "Prisma"
+        },
+        {
+          "title": "Transactions",
+          "url": "https://www.prisma.io/docs/orm/prisma-client/queries/transactions",
+          "source": "Prisma"
+        }
+      ]
+    },
+    {
+      "id": "prisma-migrate",
+      "title": "Migrations",
+      "description": "Evolve your database schema.",
+      "order": 4,
+      "prerequisite": "prisma-client",
+      "resources": [
+        {
+          "title": "Prisma Migrate",
+          "url": "https://www.prisma.io/docs/orm/prisma-migrate/getting-started",
+          "source": "Prisma"
+        },
+        {
+          "title": "Development and Production",
+          "url": "https://www.prisma.io/docs/orm/prisma-migrate/workflows/development-and-production",
+          "source": "Prisma"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "prisma",
+    "tool",
+    "quickstart",
+    "prisma schema",
+    "prisma client"
+  ],
+  "relatedSkillIds": [
+    "drizzle",
+    "docker",
+    "redis"
+  ],
+  "faqs": [
+    {
+      "question": "What is Prisma and why should I learn it?",
+      "answer": "Prisma is a widely-used tool in modern software development. Learning Prisma will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Prisma?",
+      "answer": "The time to learn Prisma varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Prisma?",
+      "answer": "Before diving into Prisma, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

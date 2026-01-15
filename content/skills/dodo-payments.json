@@ -1,0 +1,128 @@
+{
+  "id": "dodo-payments",
+  "slug": "dodo-payments",
+  "name": "Dodo Payments",
+  "category": "library",
+  "description": "Global payments infrastructure for developers",
+  "summary": "Master Dodo Payments through 4 structured learning steps.",
+  "longDescription": "Dodo Payments is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "dodo-intro",
+      "title": "Introduction",
+      "description": "Get started with Dodo Payments.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Introduction",
+          "url": "https://docs.dodopayments.com/introduction",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "Migrate to Dodo Payments",
+          "url": "https://docs.dodopayments.com/migrate-to-dodo",
+          "source": "Dodo Payments"
+        }
+      ]
+    },
+    {
+      "id": "dodo-products",
+      "title": "Products & Billing",
+      "description": "Create products and choose billing models.",
+      "order": 2,
+      "prerequisite": "dodo-intro",
+      "resources": [
+        {
+          "title": "One-Time Payments",
+          "url": "https://docs.dodopayments.com/features/one-time-payment-products",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "Subscriptions",
+          "url": "https://docs.dodopayments.com/features/subscription",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "Usage-Based Billing",
+          "url": "https://docs.dodopayments.com/features/usage-based-billing",
+          "source": "Dodo Payments"
+        }
+      ]
+    },
+    {
+      "id": "dodo-integration",
+      "title": "Integration",
+      "description": "Integrate with your stack.",
+      "order": 3,
+      "prerequisite": "dodo-products",
+      "resources": [
+        {
+          "title": "Integration Guide",
+          "url": "https://docs.dodopayments.com/developer-resources/integration-guide",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "Next.js Adapter",
+          "url": "https://docs.dodopayments.com/developer-resources/nextjs-adaptor",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "SDKs",
+          "url": "https://docs.dodopayments.com/developer-resources/dodo-payments-sdks",
+          "source": "Dodo Payments"
+        }
+      ]
+    },
+    {
+      "id": "dodo-advanced",
+      "title": "Advanced Features",
+      "description": "Customers, discounts, and more.",
+      "order": 4,
+      "prerequisite": "dodo-integration",
+      "resources": [
+        {
+          "title": "API Reference",
+          "url": "https://docs.dodopayments.com/api-reference/introduction",
+          "source": "Dodo Payments"
+        },
+        {
+          "title": "Sentra AI Agent",
+          "url": "https://docs.dodopayments.com/developer-resources/sentra",
+          "source": "Dodo Payments"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "dodo payments",
+    "library",
+    "introduction",
+    "products & billing",
+    "integration"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is Dodo Payments and why should I learn it?",
+      "answer": "Dodo Payments is a widely-used library in modern software development. Learning Dodo Payments will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Dodo Payments?",
+      "answer": "The time to learn Dodo Payments varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Dodo Payments?",
+      "answer": "Before diving into Dodo Payments, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

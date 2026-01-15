@@ -1,0 +1,140 @@
+{
+  "id": "postgresql",
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "category": "database",
+  "description": "Advanced open-source SQL database",
+  "summary": "Master PostgreSQL through 5 structured learning steps.",
+  "longDescription": "PostgreSQL is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "postgresql-getting-started",
+      "title": "Getting Started",
+      "description": "Install and set up PostgreSQL.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "Installation",
+          "url": "https://www.postgresql.org/download/",
+          "source": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "postgresql-sql-basics",
+      "title": "SQL Basics",
+      "description": "Core SQL commands.",
+      "order": 2,
+      "prerequisite": "postgresql-getting-started",
+      "resources": [
+        {
+          "title": "SQL Commands",
+          "url": "https://www.postgresql.org/docs/current/sql-commands.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "Data Definition",
+          "url": "https://www.postgresql.org/docs/current/ddl.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "Queries",
+          "url": "https://www.postgresql.org/docs/current/queries.html",
+          "source": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "postgresql-data-types",
+      "title": "Data Types",
+      "description": "PostgreSQL data types.",
+      "order": 3,
+      "prerequisite": "postgresql-sql-basics",
+      "resources": [
+        {
+          "title": "Data Types",
+          "url": "https://www.postgresql.org/docs/current/datatype.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "JSON Types",
+          "url": "https://www.postgresql.org/docs/current/datatype-json.html",
+          "source": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "postgresql-indexes",
+      "title": "Indexes",
+      "description": "Optimize query performance.",
+      "order": 4,
+      "prerequisite": "postgresql-sql-basics",
+      "resources": [
+        {
+          "title": "Indexes",
+          "url": "https://www.postgresql.org/docs/current/indexes.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "Index Types",
+          "url": "https://www.postgresql.org/docs/current/indexes-types.html",
+          "source": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "postgresql-functions",
+      "title": "Functions",
+      "description": "Built-in and custom functions.",
+      "order": 5,
+      "prerequisite": "postgresql-sql-basics",
+      "resources": [
+        {
+          "title": "Functions",
+          "url": "https://www.postgresql.org/docs/current/functions.html",
+          "source": "PostgreSQL"
+        },
+        {
+          "title": "Create Function",
+          "url": "https://www.postgresql.org/docs/current/sql-createfunction.html",
+          "source": "PostgreSQL"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "postgresql",
+    "database",
+    "getting started",
+    "sql basics",
+    "data types"
+  ],
+  "relatedSkillIds": [
+    "mongodb"
+  ],
+  "faqs": [
+    {
+      "question": "What is PostgreSQL and why should I learn it?",
+      "answer": "PostgreSQL is a widely-used database in modern software development. Learning PostgreSQL will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn PostgreSQL?",
+      "answer": "The time to learn PostgreSQL varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning PostgreSQL?",
+      "answer": "Before diving into PostgreSQL, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

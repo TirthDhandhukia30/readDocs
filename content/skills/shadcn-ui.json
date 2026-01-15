@@ -1,0 +1,114 @@
+{
+  "id": "shadcn-ui",
+  "slug": "shadcn-ui",
+  "name": "shadcn/ui",
+  "category": "library",
+  "description": "Re-usable components built with Radix",
+  "summary": "Master shadcn/ui through 3 structured learning steps.",
+  "longDescription": "shadcn/ui is a powerful technology that every modern developer should master. Our structured learning path guides you through 3 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "shadcn-installation",
+      "title": "Installation",
+      "description": "Set up shadcn/ui in your project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Installation",
+          "url": "https://ui.shadcn.com/docs/installation",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Next.js",
+          "url": "https://ui.shadcn.com/docs/installation/next",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Vite",
+          "url": "https://ui.shadcn.com/docs/installation/vite",
+          "source": "shadcn/ui"
+        }
+      ]
+    },
+    {
+      "id": "shadcn-theming",
+      "title": "Theming",
+      "description": "Customize colors and styling.",
+      "order": 2,
+      "prerequisite": "shadcn-installation",
+      "resources": [
+        {
+          "title": "Theming",
+          "url": "https://ui.shadcn.com/docs/theming",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Dark Mode",
+          "url": "https://ui.shadcn.com/docs/dark-mode",
+          "source": "shadcn/ui"
+        }
+      ]
+    },
+    {
+      "id": "shadcn-components",
+      "title": "Components",
+      "description": "Add and customize components.",
+      "order": 3,
+      "prerequisite": "shadcn-theming",
+      "resources": [
+        {
+          "title": "Button",
+          "url": "https://ui.shadcn.com/docs/components/button",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Dialog",
+          "url": "https://ui.shadcn.com/docs/components/dialog",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Form",
+          "url": "https://ui.shadcn.com/docs/components/form",
+          "source": "shadcn/ui"
+        },
+        {
+          "title": "Data Table",
+          "url": "https://ui.shadcn.com/docs/components/data-table",
+          "source": "shadcn/ui"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "shadcn/ui",
+    "library",
+    "installation",
+    "theming",
+    "components"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is shadcn/ui and why should I learn it?",
+      "answer": "shadcn/ui is a widely-used library in modern software development. Learning shadcn/ui will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn shadcn/ui?",
+      "answer": "The time to learn shadcn/ui varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning shadcn/ui?",
+      "answer": "Before diving into shadcn/ui, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

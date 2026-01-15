@@ -1,0 +1,137 @@
+{
+  "id": "azure",
+  "slug": "azure",
+  "name": "Azure",
+  "category": "cloud",
+  "description": "Microsoft cloud platform",
+  "summary": "Master Azure through 5 structured learning steps.",
+  "longDescription": "Azure is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "azure-getting-started",
+      "title": "Getting Started",
+      "description": "Introduction to Azure.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Azure Documentation",
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "source": "Azure"
+        },
+        {
+          "title": "Azure Free Account",
+          "url": "https://azure.microsoft.com/en-us/free/",
+          "source": "Azure"
+        }
+      ]
+    },
+    {
+      "id": "azure-functions",
+      "title": "Azure Functions",
+      "description": "Serverless compute service.",
+      "order": 2,
+      "prerequisite": "azure-getting-started",
+      "resources": [
+        {
+          "title": "Functions Overview",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+          "source": "Azure"
+        },
+        {
+          "title": "Create First Function",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code",
+          "source": "Azure"
+        }
+      ]
+    },
+    {
+      "id": "azure-blob",
+      "title": "Blob Storage",
+      "description": "Object storage for files.",
+      "order": 3,
+      "prerequisite": "azure-getting-started",
+      "resources": [
+        {
+          "title": "Blob Storage Overview",
+          "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction",
+          "source": "Azure"
+        },
+        {
+          "title": "Quickstart",
+          "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal",
+          "source": "Azure"
+        }
+      ]
+    },
+    {
+      "id": "azure-cosmos",
+      "title": "Cosmos DB",
+      "description": "Globally distributed database.",
+      "order": 4,
+      "prerequisite": "azure-getting-started",
+      "resources": [
+        {
+          "title": "Cosmos DB Overview",
+          "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction",
+          "source": "Azure"
+        },
+        {
+          "title": "Create Database",
+          "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal",
+          "source": "Azure"
+        }
+      ]
+    },
+    {
+      "id": "azure-app-service",
+      "title": "App Service",
+      "description": "Host web applications.",
+      "order": 5,
+      "prerequisite": "azure-getting-started",
+      "resources": [
+        {
+          "title": "App Service Overview",
+          "url": "https://learn.microsoft.com/en-us/azure/app-service/overview",
+          "source": "Azure"
+        },
+        {
+          "title": "Deploy Node.js App",
+          "url": "https://learn.microsoft.com/en-us/azure/app-service/quickstart-nodejs",
+          "source": "Azure"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "azure",
+    "cloud",
+    "getting started",
+    "azure functions",
+    "blob storage"
+  ],
+  "relatedSkillIds": [
+    "supabase",
+    "firebase",
+    "aws"
+  ],
+  "faqs": [
+    {
+      "question": "What is Azure and why should I learn it?",
+      "answer": "Azure is a widely-used cloud in modern software development. Learning Azure will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Azure?",
+      "answer": "The time to learn Azure varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Azure?",
+      "answer": "Before diving into Azure, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "drizzle",
+  "slug": "drizzle",
+  "name": "Drizzle ORM",
+  "category": "tool",
+  "description": "TypeScript ORM with SQL-like syntax",
+  "summary": "Master Drizzle ORM through 4 structured learning steps.",
+  "longDescription": "Drizzle ORM is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "drizzle-overview",
+      "title": "Get Started",
+      "description": "Set up Drizzle with your database.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "PostgreSQL",
+          "url": "https://orm.drizzle.team/docs/get-started-postgresql",
+          "source": "Drizzle"
+        },
+        {
+          "title": "MySQL",
+          "url": "https://orm.drizzle.team/docs/get-started-mysql",
+          "source": "Drizzle"
+        },
+        {
+          "title": "SQLite",
+          "url": "https://orm.drizzle.team/docs/get-started-sqlite",
+          "source": "Drizzle"
+        }
+      ]
+    },
+    {
+      "id": "drizzle-schema",
+      "title": "Schema Declaration",
+      "description": "Define tables and relations.",
+      "order": 2,
+      "prerequisite": "drizzle-overview",
+      "resources": [
+        {
+          "title": "Schema Declaration",
+          "url": "https://orm.drizzle.team/docs/sql-schema-declaration",
+          "source": "Drizzle"
+        },
+        {
+          "title": "Column Types",
+          "url": "https://orm.drizzle.team/docs/column-types/pg",
+          "source": "Drizzle"
+        }
+      ]
+    },
+    {
+      "id": "drizzle-queries",
+      "title": "Queries",
+      "description": "CRUD operations with Drizzle.",
+      "order": 3,
+      "prerequisite": "drizzle-schema",
+      "resources": [
+        {
+          "title": "Select",
+          "url": "https://orm.drizzle.team/docs/select",
+          "source": "Drizzle"
+        },
+        {
+          "title": "Insert",
+          "url": "https://orm.drizzle.team/docs/insert",
+          "source": "Drizzle"
+        },
+        {
+          "title": "Update",
+          "url": "https://orm.drizzle.team/docs/update",
+          "source": "Drizzle"
+        },
+        {
+          "title": "Delete",
+          "url": "https://orm.drizzle.team/docs/delete",
+          "source": "Drizzle"
+        }
+      ]
+    },
+    {
+      "id": "drizzle-migrations",
+      "title": "Migrations",
+      "description": "Generate and run migrations.",
+      "order": 4,
+      "prerequisite": "drizzle-queries",
+      "resources": [
+        {
+          "title": "Drizzle Kit",
+          "url": "https://orm.drizzle.team/docs/kit-overview",
+          "source": "Drizzle"
+        },
+        {
+          "title": "Migrations",
+          "url": "https://orm.drizzle.team/docs/migrations",
+          "source": "Drizzle"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "drizzle orm",
+    "tool",
+    "get started",
+    "schema declaration",
+    "queries"
+  ],
+  "relatedSkillIds": [
+    "prisma",
+    "docker",
+    "redis"
+  ],
+  "faqs": [
+    {
+      "question": "What is Drizzle ORM and why should I learn it?",
+      "answer": "Drizzle ORM is a widely-used tool in modern software development. Learning Drizzle ORM will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Drizzle ORM?",
+      "answer": "The time to learn Drizzle ORM varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Drizzle ORM?",
+      "answer": "Before diving into Drizzle ORM, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

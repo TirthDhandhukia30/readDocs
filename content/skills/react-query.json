@@ -1,0 +1,128 @@
+{
+  "id": "react-query",
+  "slug": "react-query",
+  "name": "TanStack Query",
+  "category": "library",
+  "description": "Async state management for React",
+  "summary": "Master TanStack Query through 4 structured learning steps.",
+  "longDescription": "TanStack Query is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "rq-overview",
+      "title": "Overview",
+      "description": "What TanStack Query solves and when to use it.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Overview",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "Quick Start",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/quick-start",
+          "source": "TanStack Query"
+        }
+      ]
+    },
+    {
+      "id": "rq-queries",
+      "title": "Queries",
+      "description": "Fetching and caching data.",
+      "order": 2,
+      "prerequisite": "rq-overview",
+      "resources": [
+        {
+          "title": "Queries",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/queries",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "Query Keys",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-keys",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "Query Functions",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/query-functions",
+          "source": "TanStack Query"
+        }
+      ]
+    },
+    {
+      "id": "rq-mutations",
+      "title": "Mutations",
+      "description": "Creating, updating, and deleting data.",
+      "order": 3,
+      "prerequisite": "rq-queries",
+      "resources": [
+        {
+          "title": "Mutations",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/mutations",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "Invalidation from Mutations",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/invalidations-from-mutations",
+          "source": "TanStack Query"
+        }
+      ]
+    },
+    {
+      "id": "rq-advanced",
+      "title": "Advanced Patterns",
+      "description": "Optimistic updates, infinite queries, SSR.",
+      "order": 4,
+      "prerequisite": "rq-mutations",
+      "resources": [
+        {
+          "title": "Optimistic Updates",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "Infinite Queries",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/infinite-queries",
+          "source": "TanStack Query"
+        },
+        {
+          "title": "SSR",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/guides/ssr",
+          "source": "TanStack Query"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tanstack query",
+    "library",
+    "overview",
+    "queries",
+    "mutations"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "better-auth",
+    "dodo-payments"
+  ],
+  "faqs": [
+    {
+      "question": "What is TanStack Query and why should I learn it?",
+      "answer": "TanStack Query is a widely-used library in modern software development. Learning TanStack Query will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn TanStack Query?",
+      "answer": "The time to learn TanStack Query varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning TanStack Query?",
+      "answer": "Before diving into TanStack Query, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

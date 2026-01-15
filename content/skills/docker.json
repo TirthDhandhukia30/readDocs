@@ -1,0 +1,137 @@
+{
+  "id": "docker",
+  "slug": "docker",
+  "name": "Docker",
+  "category": "tool",
+  "description": "Container platform",
+  "summary": "Master Docker through 5 structured learning steps.",
+  "longDescription": "Docker is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "docker-getting-started",
+      "title": "Getting Started",
+      "description": "Install Docker and learn basics.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Get Docker",
+          "url": "https://docs.docker.com/get-docker/",
+          "source": "Docker"
+        },
+        {
+          "title": "Getting Started Guide",
+          "url": "https://docs.docker.com/get-started/",
+          "source": "Docker"
+        }
+      ]
+    },
+    {
+      "id": "docker-images",
+      "title": "Images",
+      "description": "Build and manage Docker images.",
+      "order": 2,
+      "prerequisite": "docker-getting-started",
+      "resources": [
+        {
+          "title": "Build Images",
+          "url": "https://docs.docker.com/build/",
+          "source": "Docker"
+        },
+        {
+          "title": "Dockerfile Reference",
+          "url": "https://docs.docker.com/reference/dockerfile/",
+          "source": "Docker"
+        }
+      ]
+    },
+    {
+      "id": "docker-containers",
+      "title": "Containers",
+      "description": "Run and manage containers.",
+      "order": 3,
+      "prerequisite": "docker-images",
+      "resources": [
+        {
+          "title": "Run Containers",
+          "url": "https://docs.docker.com/engine/reference/run/",
+          "source": "Docker"
+        },
+        {
+          "title": "Container Networking",
+          "url": "https://docs.docker.com/network/",
+          "source": "Docker"
+        }
+      ]
+    },
+    {
+      "id": "docker-compose",
+      "title": "Docker Compose",
+      "description": "Multi-container applications.",
+      "order": 4,
+      "prerequisite": "docker-containers",
+      "resources": [
+        {
+          "title": "Compose Overview",
+          "url": "https://docs.docker.com/compose/",
+          "source": "Docker"
+        },
+        {
+          "title": "Compose File Reference",
+          "url": "https://docs.docker.com/compose/compose-file/",
+          "source": "Docker"
+        }
+      ]
+    },
+    {
+      "id": "docker-volumes",
+      "title": "Volumes",
+      "description": "Persistent data storage.",
+      "order": 5,
+      "prerequisite": "docker-containers",
+      "resources": [
+        {
+          "title": "Volumes",
+          "url": "https://docs.docker.com/storage/volumes/",
+          "source": "Docker"
+        },
+        {
+          "title": "Bind Mounts",
+          "url": "https://docs.docker.com/storage/bind-mounts/",
+          "source": "Docker"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "docker",
+    "tool",
+    "getting started",
+    "images",
+    "containers"
+  ],
+  "relatedSkillIds": [
+    "prisma",
+    "drizzle",
+    "redis"
+  ],
+  "faqs": [
+    {
+      "question": "What is Docker and why should I learn it?",
+      "answer": "Docker is a widely-used tool in modern software development. Learning Docker will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Docker?",
+      "answer": "The time to learn Docker varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Docker?",
+      "answer": "Before diving into Docker, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "fastapi",
+  "slug": "fastapi",
+  "name": "FastAPI",
+  "category": "framework",
+  "description": "Modern Python web framework for APIs",
+  "summary": "Master FastAPI through 6 structured learning steps.",
+  "longDescription": "FastAPI is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "fastapi-intro",
+      "title": "Introduction",
+      "description": "Getting started with FastAPI.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "FastAPI",
+          "url": "https://fastapi.tiangolo.com/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "First Steps",
+          "url": "https://fastapi.tiangolo.com/tutorial/first-steps/",
+          "source": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-path-query",
+      "title": "Path & Query Parameters",
+      "description": "Handling URL parameters.",
+      "order": 2,
+      "prerequisite": "fastapi-intro",
+      "resources": [
+        {
+          "title": "Path Parameters",
+          "url": "https://fastapi.tiangolo.com/tutorial/path-params/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "Query Parameters",
+          "url": "https://fastapi.tiangolo.com/tutorial/query-params/",
+          "source": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-request-body",
+      "title": "Request Body",
+      "description": "Handling JSON request bodies.",
+      "order": 3,
+      "prerequisite": "fastapi-path-query",
+      "resources": [
+        {
+          "title": "Request Body",
+          "url": "https://fastapi.tiangolo.com/tutorial/body/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "Body - Multiple Parameters",
+          "url": "https://fastapi.tiangolo.com/tutorial/body-multiple-params/",
+          "source": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-response",
+      "title": "Response Model",
+      "description": "Defining response schemas.",
+      "order": 4,
+      "prerequisite": "fastapi-request-body",
+      "resources": [
+        {
+          "title": "Response Model",
+          "url": "https://fastapi.tiangolo.com/tutorial/response-model/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "Response Status Code",
+          "url": "https://fastapi.tiangolo.com/tutorial/response-status-code/",
+          "source": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-dependencies",
+      "title": "Dependencies",
+      "description": "Dependency injection system.",
+      "order": 5,
+      "prerequisite": "fastapi-response",
+      "resources": [
+        {
+          "title": "Dependencies",
+          "url": "https://fastapi.tiangolo.com/tutorial/dependencies/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "Classes as Dependencies",
+          "url": "https://fastapi.tiangolo.com/tutorial/dependencies/classes-as-dependencies/",
+          "source": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-security",
+      "title": "Security",
+      "description": "Authentication and authorization.",
+      "order": 6,
+      "prerequisite": "fastapi-dependencies",
+      "resources": [
+        {
+          "title": "Security Intro",
+          "url": "https://fastapi.tiangolo.com/tutorial/security/",
+          "source": "FastAPI"
+        },
+        {
+          "title": "OAuth2 with Password",
+          "url": "https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/",
+          "source": "FastAPI"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "fastapi",
+    "framework",
+    "introduction",
+    "path & query parameters",
+    "request body"
+  ],
+  "relatedSkillIds": [
+    "tailwindcss",
+    "nextjs",
+    "trpc"
+  ],
+  "faqs": [
+    {
+      "question": "What is FastAPI and why should I learn it?",
+      "answer": "FastAPI is a widely-used framework in modern software development. Learning FastAPI will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn FastAPI?",
+      "answer": "The time to learn FastAPI varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning FastAPI?",
+      "answer": "Before diving into FastAPI, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:full": "npm run content:split && npm run sitemap:generate && npm run build",
+    "content:split": "npx tsx scripts/split-content.ts",
+    "sitemap:generate": "npx tsx scripts/generate-sitemap.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

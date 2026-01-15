@@ -1,0 +1,39 @@
+{
+  "id": "kotlin",
+  "slug": "kotlin",
+  "name": "Kotlin",
+  "description": "Programming language documentation for Kotlin",
+  "summary": "Learn Kotlin programming with curated documentation.",
+  "longDescription": "Kotlin is a versatile programming language with unique features and capabilities. Our curated collection of 10 documentation links helps you explore Kotlin's ecosystem, from getting started guides to advanced language features. Learn from official sources and build your proficiency systematically.",
+  "features": [
+    "Documentation",
+    "Tutorials",
+    "Best Practices"
+  ],
+  "links": [],
+  "tags": [
+    "kotlin",
+    "programming",
+    "language"
+  ],
+  "relatedLanguageIds": [
+    "rust",
+    "go",
+    "swift"
+  ],
+  "faqs": [
+    {
+      "question": "Is Kotlin a good programming language to learn?",
+      "answer": "Kotlin is an excellent choice for specific use cases. Its unique features make it suitable for various types of projects and career paths."
+    },
+    {
+      "question": "What can I build with Kotlin?",
+      "answer": "Kotlin is versatile and can be used for a wide range of applications. Check our documentation resources to learn about Kotlin's capabilities."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}

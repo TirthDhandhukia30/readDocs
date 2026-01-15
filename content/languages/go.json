@@ -1,0 +1,39 @@
+{
+  "id": "go",
+  "slug": "go",
+  "name": "Go",
+  "description": "Programming language documentation for Go",
+  "summary": "Learn Go programming with curated documentation.",
+  "longDescription": "Go is a versatile programming language with unique features and capabilities. Our curated collection of 10 documentation links helps you explore Go's ecosystem, from getting started guides to advanced language features. Learn from official sources and build your proficiency systematically.",
+  "features": [
+    "Documentation",
+    "Tutorials",
+    "Best Practices"
+  ],
+  "links": [],
+  "tags": [
+    "go",
+    "programming",
+    "language"
+  ],
+  "relatedLanguageIds": [
+    "rust",
+    "kotlin",
+    "swift"
+  ],
+  "faqs": [
+    {
+      "question": "Is Go a good programming language to learn?",
+      "answer": "Go is an excellent choice for specific use cases. Its unique features make it suitable for various types of projects and career paths."
+    },
+    {
+      "question": "What can I build with Go?",
+      "answer": "Go is versatile and can be used for a wide range of applications. Check our documentation resources to learn about Go's capabilities."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}

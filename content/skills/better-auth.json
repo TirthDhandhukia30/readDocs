@@ -1,0 +1,108 @@
+{
+  "id": "better-auth",
+  "slug": "better-auth",
+  "name": "Better Auth",
+  "category": "library",
+  "description": "Authentication for TypeScript",
+  "summary": "Master Better Auth through 4 structured learning steps.",
+  "longDescription": "Better Auth is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "ba-installation",
+      "title": "Installation",
+      "description": "Set up Better Auth in your project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Installation",
+          "url": "https://www.better-auth.com/docs/installation",
+          "source": "Better Auth"
+        }
+      ]
+    },
+    {
+      "id": "ba-basic-usage",
+      "title": "Basic Usage",
+      "description": "Configure authentication and handle sessions.",
+      "order": 2,
+      "prerequisite": "ba-installation",
+      "resources": [
+        {
+          "title": "Basic Usage",
+          "url": "https://www.better-auth.com/docs/basic-usage",
+          "source": "Better Auth"
+        }
+      ]
+    },
+    {
+      "id": "ba-authentication",
+      "title": "Authentication",
+      "description": "Email/password, social providers, and more.",
+      "order": 3,
+      "prerequisite": "ba-basic-usage",
+      "resources": [
+        {
+          "title": "Email & Password",
+          "url": "https://www.better-auth.com/docs/authentication/email-password",
+          "source": "Better Auth"
+        },
+        {
+          "title": "Social Sign-on",
+          "url": "https://www.better-auth.com/docs/authentication/social-sign-on",
+          "source": "Better Auth"
+        }
+      ]
+    },
+    {
+      "id": "ba-plugins",
+      "title": "Plugins",
+      "description": "Extend functionality with plugins.",
+      "order": 4,
+      "prerequisite": "ba-authentication",
+      "resources": [
+        {
+          "title": "Two Factor",
+          "url": "https://www.better-auth.com/docs/plugins/two-factor",
+          "source": "Better Auth"
+        },
+        {
+          "title": "Organizations",
+          "url": "https://www.better-auth.com/docs/plugins/organization",
+          "source": "Better Auth"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "better auth",
+    "library",
+    "installation",
+    "basic usage",
+    "authentication"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "dodo-payments"
+  ],
+  "faqs": [
+    {
+      "question": "What is Better Auth and why should I learn it?",
+      "answer": "Better Auth is a widely-used library in modern software development. Learning Better Auth will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Better Auth?",
+      "answer": "The time to learn Better Auth varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Better Auth?",
+      "answer": "Before diving into Better Auth, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

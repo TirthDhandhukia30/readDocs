@@ -1,0 +1,148 @@
+{
+  "id": "tailwindcss",
+  "slug": "tailwindcss",
+  "name": "Tailwind CSS",
+  "category": "framework",
+  "description": "Utility-first CSS framework",
+  "summary": "Master Tailwind CSS through 4 structured learning steps.",
+  "longDescription": "Tailwind CSS is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "tailwind-installation",
+      "title": "Installation",
+      "description": "Set up Tailwind CSS in your project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Installation Guide",
+          "url": "https://tailwindcss.com/docs/installation",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Framework Guides",
+          "url": "https://tailwindcss.com/docs/installation/framework-guides",
+          "source": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-core-concepts",
+      "title": "Core Concepts",
+      "description": "Understand utility-first fundamentals and responsive design.",
+      "order": 2,
+      "prerequisite": "tailwind-installation",
+      "resources": [
+        {
+          "title": "Utility-First Fundamentals",
+          "url": "https://tailwindcss.com/docs/utility-first",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Responsive Design",
+          "url": "https://tailwindcss.com/docs/responsive-design",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Hover, Focus & Other States",
+          "url": "https://tailwindcss.com/docs/hover-focus-and-other-states",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Dark Mode",
+          "url": "https://tailwindcss.com/docs/dark-mode",
+          "source": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-customization",
+      "title": "Customization",
+      "description": "Configure and extend Tailwind to match your design system.",
+      "order": 3,
+      "prerequisite": "tailwind-core-concepts",
+      "resources": [
+        {
+          "title": "Configuration",
+          "url": "https://tailwindcss.com/docs/configuration",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Theme Configuration",
+          "url": "https://tailwindcss.com/docs/theme",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Customizing Colors",
+          "url": "https://tailwindcss.com/docs/customizing-colors",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Adding Custom Styles",
+          "url": "https://tailwindcss.com/docs/adding-custom-styles",
+          "source": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-layout",
+      "title": "Layout & Spacing",
+      "description": "Master flexbox, grid, and spacing utilities.",
+      "order": 4,
+      "prerequisite": "tailwind-core-concepts",
+      "resources": [
+        {
+          "title": "Flexbox",
+          "url": "https://tailwindcss.com/docs/flex",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Grid",
+          "url": "https://tailwindcss.com/docs/grid-template-columns",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Padding",
+          "url": "https://tailwindcss.com/docs/padding",
+          "source": "Tailwind CSS"
+        },
+        {
+          "title": "Margin",
+          "url": "https://tailwindcss.com/docs/margin",
+          "source": "Tailwind CSS"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "tailwind css",
+    "framework",
+    "installation",
+    "core concepts",
+    "customization"
+  ],
+  "relatedSkillIds": [
+    "nextjs",
+    "fastapi",
+    "trpc"
+  ],
+  "faqs": [
+    {
+      "question": "What is Tailwind CSS and why should I learn it?",
+      "answer": "Tailwind CSS is a widely-used framework in modern software development. Learning Tailwind CSS will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Tailwind CSS?",
+      "answer": "The time to learn Tailwind CSS varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Tailwind CSS?",
+      "answer": "Before diving into Tailwind CSS, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

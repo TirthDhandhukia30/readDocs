@@ -1,0 +1,215 @@
+{
+  "id": "web3",
+  "slug": "web3",
+  "name": "Web3",
+  "description": "Blockchain and smart contracts",
+  "summary": "Complete Web3 learning path with 7 steps.",
+  "longDescription": "Web3 development encompasses a wide range of skills and technologies. This comprehensive learning path breaks down the journey into 7 manageable steps, covering everything from basics to advanced concepts. Follow this structured curriculum to build a solid foundation and progressively enhance your capabilities in web3 development.",
+  "steps": [
+    {
+      "id": "blockchain-fundamentals",
+      "title": "Blockchain Fundamentals",
+      "description": "Understand how blockchain networks work, consensus mechanisms, and cryptography basics.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Ethereum Whitepaper",
+          "url": "https://ethereum.org/en/whitepaper/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "How Does Ethereum Work?",
+          "url": "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "Accounts",
+          "url": "https://ethereum.org/en/developers/docs/accounts/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "Transactions",
+          "url": "https://ethereum.org/en/developers/docs/transactions/",
+          "source": "Ethereum"
+        }
+      ]
+    },
+    {
+      "id": "solidity-basics",
+      "title": "Solidity Basics",
+      "description": "Learn Solidity, the primary language for Ethereum smart contracts.",
+      "order": 2,
+      "prerequisite": "blockchain-fundamentals",
+      "resources": [
+        {
+          "title": "Solidity Documentation",
+          "url": "https://docs.soliditylang.org/en/latest/",
+          "source": "Solidity"
+        },
+        {
+          "title": "Solidity by Example",
+          "url": "https://docs.soliditylang.org/en/latest/solidity-by-example.html",
+          "source": "Solidity"
+        },
+        {
+          "title": "Types",
+          "url": "https://docs.soliditylang.org/en/latest/types.html",
+          "source": "Solidity"
+        }
+      ]
+    },
+    {
+      "id": "smart-contracts",
+      "title": "Smart Contract Development",
+      "description": "Write, test, and deploy smart contracts on Ethereum.",
+      "order": 3,
+      "prerequisite": "solidity-basics",
+      "resources": [
+        {
+          "title": "Smart Contracts Introduction",
+          "url": "https://ethereum.org/en/developers/docs/smart-contracts/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "Contract Anatomy",
+          "url": "https://ethereum.org/en/developers/docs/smart-contracts/anatomy/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "Testing Smart Contracts",
+          "url": "https://ethereum.org/en/developers/docs/smart-contracts/testing/",
+          "source": "Ethereum"
+        }
+      ]
+    },
+    {
+      "id": "hardhat",
+      "title": "Hardhat Development Environment",
+      "description": "Professional development environment for compiling, deploying, and testing smart contracts.",
+      "order": 4,
+      "prerequisite": "smart-contracts",
+      "resources": [
+        {
+          "title": "Hardhat Documentation",
+          "url": "https://hardhat.org/docs",
+          "source": "Hardhat"
+        },
+        {
+          "title": "Getting Started",
+          "url": "https://hardhat.org/hardhat-runner/docs/getting-started",
+          "source": "Hardhat"
+        },
+        {
+          "title": "Testing Contracts",
+          "url": "https://hardhat.org/hardhat-runner/docs/guides/test-contracts",
+          "source": "Hardhat"
+        }
+      ]
+    },
+    {
+      "id": "ethers-viem",
+      "title": "Ethereum Libraries (ethers.js / viem)",
+      "description": "Interact with Ethereum from JavaScript applications.",
+      "order": 5,
+      "prerequisite": "smart-contracts",
+      "resources": [
+        {
+          "title": "ethers.js Documentation",
+          "url": "https://docs.ethers.org/v6/",
+          "source": "ethers.js"
+        },
+        {
+          "title": "viem Documentation",
+          "url": "https://viem.sh/docs/introduction",
+          "source": "viem"
+        },
+        {
+          "title": "wagmi Documentation",
+          "url": "https://wagmi.sh/core/getting-started",
+          "source": "wagmi"
+        }
+      ]
+    },
+    {
+      "id": "defi-protocols",
+      "title": "DeFi Protocols",
+      "description": "Understand decentralized finance protocols and standards.",
+      "order": 6,
+      "prerequisite": "ethers-viem",
+      "resources": [
+        {
+          "title": "ERC-20 Token Standard",
+          "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "ERC-721 NFT Standard",
+          "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-721/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "Uniswap V3 Docs",
+          "url": "https://docs.uniswap.org/",
+          "source": "Uniswap"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Smart Contract Security",
+      "description": "Security best practices and common vulnerabilities.",
+      "order": 7,
+      "prerequisite": "defi-protocols",
+      "resources": [
+        {
+          "title": "Security Considerations",
+          "url": "https://docs.soliditylang.org/en/latest/security-considerations.html",
+          "source": "Solidity"
+        },
+        {
+          "title": "Smart Contract Security",
+          "url": "https://ethereum.org/en/developers/docs/smart-contracts/security/",
+          "source": "Ethereum"
+        },
+        {
+          "title": "OpenZeppelin Contracts",
+          "url": "https://docs.openzeppelin.com/contracts/",
+          "source": "OpenZeppelin"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "web3",
+    "development",
+    "learning path"
+  ],
+  "relatedDomainIds": [
+    "web-development",
+    "mobile-development",
+    "ai-ml"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "tailwindcss",
+    "nextjs",
+    "typescript",
+    "react-query"
+  ],
+  "faqs": [
+    {
+      "question": "What is Web3 development?",
+      "answer": "Web3 development involves creating and maintaining web3 applications. It encompasses various technologies, frameworks, and best practices."
+    },
+    {
+      "question": "How do I get started with Web3 development?",
+      "answer": "Start with the fundamentals in our Web3 learning path. We've organized the materials in optimal learning order to help you progress efficiently."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}

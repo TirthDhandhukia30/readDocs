@@ -1,0 +1,258 @@
+{
+  "id": "ai-ml",
+  "slug": "ai-ml",
+  "name": "AI & Machine Learning",
+  "description": "Python to deep learning",
+  "summary": "Complete AI & Machine Learning learning path with 9 steps.",
+  "longDescription": "AI & Machine Learning development encompasses a wide range of skills and technologies. This comprehensive learning path breaks down the journey into 9 manageable steps, covering everything from basics to advanced concepts. Follow this structured curriculum to build a solid foundation and progressively enhance your capabilities in ai & machine learning development.",
+  "steps": [
+    {
+      "id": "python-fundamentals",
+      "title": "Python Fundamentals",
+      "description": "Essential Python programming for data science and ML.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Python Documentation",
+          "url": "https://docs.python.org/3/tutorial/index.html",
+          "source": "Python"
+        },
+        {
+          "title": "Python Language Reference",
+          "url": "https://docs.python.org/3/reference/index.html",
+          "source": "Python"
+        },
+        {
+          "title": "Python Standard Library",
+          "url": "https://docs.python.org/3/library/index.html",
+          "source": "Python"
+        }
+      ]
+    },
+    {
+      "id": "numpy",
+      "title": "NumPy",
+      "description": "Numerical computing with arrays and matrices.",
+      "order": 2,
+      "prerequisite": "python-fundamentals",
+      "resources": [
+        {
+          "title": "NumPy User Guide",
+          "url": "https://numpy.org/doc/stable/user/index.html",
+          "source": "NumPy"
+        },
+        {
+          "title": "NumPy Quickstart",
+          "url": "https://numpy.org/doc/stable/user/quickstart.html",
+          "source": "NumPy"
+        },
+        {
+          "title": "NumPy Reference",
+          "url": "https://numpy.org/doc/stable/reference/index.html",
+          "source": "NumPy"
+        }
+      ]
+    },
+    {
+      "id": "pandas",
+      "title": "Pandas",
+      "description": "Data manipulation and analysis with DataFrames.",
+      "order": 3,
+      "prerequisite": "numpy",
+      "resources": [
+        {
+          "title": "Pandas User Guide",
+          "url": "https://pandas.pydata.org/docs/user_guide/index.html",
+          "source": "Pandas"
+        },
+        {
+          "title": "Getting Started",
+          "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+          "source": "Pandas"
+        },
+        {
+          "title": "API Reference",
+          "url": "https://pandas.pydata.org/docs/reference/index.html",
+          "source": "Pandas"
+        }
+      ]
+    },
+    {
+      "id": "matplotlib",
+      "title": "Matplotlib & Visualization",
+      "description": "Create static, animated, and interactive visualizations.",
+      "order": 4,
+      "prerequisite": "pandas",
+      "resources": [
+        {
+          "title": "Matplotlib User Guide",
+          "url": "https://matplotlib.org/stable/users/index.html",
+          "source": "Matplotlib"
+        },
+        {
+          "title": "Pyplot Tutorial",
+          "url": "https://matplotlib.org/stable/tutorials/pyplot.html",
+          "source": "Matplotlib"
+        },
+        {
+          "title": "Seaborn Documentation",
+          "url": "https://seaborn.pydata.org/tutorial.html",
+          "source": "Seaborn"
+        }
+      ]
+    },
+    {
+      "id": "scikit-learn",
+      "title": "Scikit-learn",
+      "description": "Machine learning algorithms and tools.",
+      "order": 5,
+      "prerequisite": "matplotlib",
+      "resources": [
+        {
+          "title": "Scikit-learn User Guide",
+          "url": "https://scikit-learn.org/stable/user_guide.html",
+          "source": "Scikit-learn"
+        },
+        {
+          "title": "Getting Started",
+          "url": "https://scikit-learn.org/stable/getting_started.html",
+          "source": "Scikit-learn"
+        },
+        {
+          "title": "API Reference",
+          "url": "https://scikit-learn.org/stable/modules/classes.html",
+          "source": "Scikit-learn"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "title": "PyTorch",
+      "description": "Deep learning framework with dynamic computation graphs.",
+      "order": 6,
+      "prerequisite": "scikit-learn",
+      "resources": [
+        {
+          "title": "PyTorch Documentation",
+          "url": "https://pytorch.org/docs/stable/index.html",
+          "source": "PyTorch"
+        },
+        {
+          "title": "PyTorch Tutorials",
+          "url": "https://pytorch.org/tutorials/",
+          "source": "PyTorch"
+        },
+        {
+          "title": "Learn the Basics",
+          "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+          "source": "PyTorch"
+        }
+      ]
+    },
+    {
+      "id": "tensorflow",
+      "title": "TensorFlow",
+      "description": "End-to-end platform for machine learning.",
+      "order": 7,
+      "prerequisite": "scikit-learn",
+      "resources": [
+        {
+          "title": "TensorFlow Guide",
+          "url": "https://www.tensorflow.org/guide",
+          "source": "TensorFlow"
+        },
+        {
+          "title": "TensorFlow Tutorials",
+          "url": "https://www.tensorflow.org/tutorials",
+          "source": "TensorFlow"
+        },
+        {
+          "title": "Keras Documentation",
+          "url": "https://keras.io/guides/",
+          "source": "Keras"
+        }
+      ]
+    },
+    {
+      "id": "huggingface",
+      "title": "Hugging Face Transformers",
+      "description": "State-of-the-art NLP and transformer models.",
+      "order": 8,
+      "prerequisite": "pytorch",
+      "resources": [
+        {
+          "title": "Transformers Documentation",
+          "url": "https://huggingface.co/docs/transformers/index",
+          "source": "Hugging Face"
+        },
+        {
+          "title": "Quick Tour",
+          "url": "https://huggingface.co/docs/transformers/quicktour",
+          "source": "Hugging Face"
+        },
+        {
+          "title": "Datasets Documentation",
+          "url": "https://huggingface.co/docs/datasets/index",
+          "source": "Hugging Face"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "title": "LangChain & LLM Development",
+      "description": "Build applications powered by large language models.",
+      "order": 9,
+      "prerequisite": "huggingface",
+      "resources": [
+        {
+          "title": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/introduction/",
+          "source": "LangChain"
+        },
+        {
+          "title": "OpenAI API Reference",
+          "url": "https://platform.openai.com/docs/api-reference",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Anthropic API Documentation",
+          "url": "https://docs.anthropic.com/en/api/getting-started",
+          "source": "Anthropic"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "ai & machine learning",
+    "development",
+    "learning path"
+  ],
+  "relatedDomainIds": [
+    "web-development",
+    "mobile-development",
+    "web3"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "tailwindcss",
+    "nextjs",
+    "typescript",
+    "react-query"
+  ],
+  "faqs": [
+    {
+      "question": "What is AI & Machine Learning development?",
+      "answer": "AI & Machine Learning development involves creating and maintaining ai & machine learning applications. It encompasses various technologies, frameworks, and best practices."
+    },
+    {
+      "question": "How do I get started with AI & Machine Learning development?",
+      "answer": "Start with the fundamentals in our AI & Machine Learning learning path. We've organized the materials in optimal learning order to help you progress efficiently."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "supabase",
+  "slug": "supabase",
+  "name": "Supabase",
+  "category": "cloud",
+  "description": "Open source Firebase alternative",
+  "summary": "Master Supabase through 5 structured learning steps.",
+  "longDescription": "Supabase is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "supabase-getting-started",
+      "title": "Getting Started",
+      "description": "Set up your Supabase project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Quickstart",
+          "url": "https://supabase.com/docs/guides/getting-started",
+          "source": "Supabase"
+        },
+        {
+          "title": "Project Setup",
+          "url": "https://supabase.com/docs/guides/getting-started/quickstarts/nextjs",
+          "source": "Supabase"
+        }
+      ]
+    },
+    {
+      "id": "supabase-database",
+      "title": "Database",
+      "description": "PostgreSQL database with Supabase.",
+      "order": 2,
+      "prerequisite": "supabase-getting-started",
+      "resources": [
+        {
+          "title": "Database Overview",
+          "url": "https://supabase.com/docs/guides/database/overview",
+          "source": "Supabase"
+        },
+        {
+          "title": "Tables & Data",
+          "url": "https://supabase.com/docs/guides/database/tables",
+          "source": "Supabase"
+        },
+        {
+          "title": "Database Functions",
+          "url": "https://supabase.com/docs/guides/database/functions",
+          "source": "Supabase"
+        }
+      ]
+    },
+    {
+      "id": "supabase-auth",
+      "title": "Authentication",
+      "description": "User authentication and authorization.",
+      "order": 3,
+      "prerequisite": "supabase-database",
+      "resources": [
+        {
+          "title": "Auth Overview",
+          "url": "https://supabase.com/docs/guides/auth",
+          "source": "Supabase"
+        },
+        {
+          "title": "Email Auth",
+          "url": "https://supabase.com/docs/guides/auth/auth-email",
+          "source": "Supabase"
+        },
+        {
+          "title": "Social Login",
+          "url": "https://supabase.com/docs/guides/auth/social-login",
+          "source": "Supabase"
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/auth/row-level-security",
+          "source": "Supabase"
+        }
+      ]
+    },
+    {
+      "id": "supabase-storage",
+      "title": "Storage",
+      "description": "File storage and management.",
+      "order": 4,
+      "prerequisite": "supabase-auth",
+      "resources": [
+        {
+          "title": "Storage Overview",
+          "url": "https://supabase.com/docs/guides/storage",
+          "source": "Supabase"
+        },
+        {
+          "title": "Upload Files",
+          "url": "https://supabase.com/docs/guides/storage/uploads",
+          "source": "Supabase"
+        }
+      ]
+    },
+    {
+      "id": "supabase-realtime",
+      "title": "Realtime",
+      "description": "Real-time subscriptions.",
+      "order": 5,
+      "prerequisite": "supabase-database",
+      "resources": [
+        {
+          "title": "Realtime Overview",
+          "url": "https://supabase.com/docs/guides/realtime",
+          "source": "Supabase"
+        },
+        {
+          "title": "Broadcast",
+          "url": "https://supabase.com/docs/guides/realtime/broadcast",
+          "source": "Supabase"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "supabase",
+    "cloud",
+    "getting started",
+    "database",
+    "authentication"
+  ],
+  "relatedSkillIds": [
+    "firebase",
+    "aws",
+    "azure"
+  ],
+  "faqs": [
+    {
+      "question": "What is Supabase and why should I learn it?",
+      "answer": "Supabase is a widely-used cloud in modern software development. Learning Supabase will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Supabase?",
+      "answer": "The time to learn Supabase varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Supabase?",
+      "answer": "Before diving into Supabase, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

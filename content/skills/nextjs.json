@@ -1,0 +1,157 @@
+{
+  "id": "nextjs",
+  "slug": "nextjs",
+  "name": "Next.js",
+  "category": "framework",
+  "description": "React framework for production",
+  "summary": "Master Next.js through 5 structured learning steps.",
+  "longDescription": "Next.js is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "nextjs-getting-started",
+      "title": "Getting Started",
+      "description": "Set up your first Next.js application.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Installation",
+          "url": "https://nextjs.org/docs/getting-started/installation",
+          "source": "Next.js"
+        },
+        {
+          "title": "Project Structure",
+          "url": "https://nextjs.org/docs/getting-started/project-structure",
+          "source": "Next.js"
+        }
+      ]
+    },
+    {
+      "id": "nextjs-routing",
+      "title": "Routing",
+      "description": "File-based routing with the App Router.",
+      "order": 2,
+      "prerequisite": "nextjs-getting-started",
+      "resources": [
+        {
+          "title": "Routing Fundamentals",
+          "url": "https://nextjs.org/docs/app/building-your-application/routing",
+          "source": "Next.js"
+        },
+        {
+          "title": "Defining Routes",
+          "url": "https://nextjs.org/docs/app/building-your-application/routing/defining-routes",
+          "source": "Next.js"
+        },
+        {
+          "title": "Dynamic Routes",
+          "url": "https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes",
+          "source": "Next.js"
+        },
+        {
+          "title": "Route Groups",
+          "url": "https://nextjs.org/docs/app/building-your-application/routing/route-groups",
+          "source": "Next.js"
+        }
+      ]
+    },
+    {
+      "id": "nextjs-rendering",
+      "title": "Rendering",
+      "description": "Server and client components, streaming.",
+      "order": 3,
+      "prerequisite": "nextjs-routing",
+      "resources": [
+        {
+          "title": "Server Components",
+          "url": "https://nextjs.org/docs/app/building-your-application/rendering/server-components",
+          "source": "Next.js"
+        },
+        {
+          "title": "Client Components",
+          "url": "https://nextjs.org/docs/app/building-your-application/rendering/client-components",
+          "source": "Next.js"
+        },
+        {
+          "title": "Composition Patterns",
+          "url": "https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns",
+          "source": "Next.js"
+        }
+      ]
+    },
+    {
+      "id": "nextjs-data-fetching",
+      "title": "Data Fetching",
+      "description": "Fetch data in server components and handle caching.",
+      "order": 4,
+      "prerequisite": "nextjs-rendering",
+      "resources": [
+        {
+          "title": "Data Fetching & Caching",
+          "url": "https://nextjs.org/docs/app/building-your-application/data-fetching/fetching",
+          "source": "Next.js"
+        },
+        {
+          "title": "Server Actions",
+          "url": "https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations",
+          "source": "Next.js"
+        },
+        {
+          "title": "Caching",
+          "url": "https://nextjs.org/docs/app/building-your-application/caching",
+          "source": "Next.js"
+        }
+      ]
+    },
+    {
+      "id": "nextjs-styling",
+      "title": "Styling",
+      "description": "CSS Modules, Tailwind, and CSS-in-JS.",
+      "order": 5,
+      "prerequisite": "nextjs-getting-started",
+      "resources": [
+        {
+          "title": "CSS Modules",
+          "url": "https://nextjs.org/docs/app/building-your-application/styling/css-modules",
+          "source": "Next.js"
+        },
+        {
+          "title": "Tailwind CSS",
+          "url": "https://nextjs.org/docs/app/building-your-application/styling/tailwind-css",
+          "source": "Next.js"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "next.js",
+    "framework",
+    "getting started",
+    "routing",
+    "rendering"
+  ],
+  "relatedSkillIds": [
+    "tailwindcss",
+    "fastapi",
+    "trpc"
+  ],
+  "faqs": [
+    {
+      "question": "What is Next.js and why should I learn it?",
+      "answer": "Next.js is a widely-used framework in modern software development. Learning Next.js will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Next.js?",
+      "answer": "The time to learn Next.js varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Next.js?",
+      "answer": "Before diving into Next.js, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

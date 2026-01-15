@@ -1,0 +1,120 @@
+{
+  "id": "rest",
+  "slug": "rest",
+  "name": "REST API",
+  "category": "protocol",
+  "description": "RESTful API design principles",
+  "summary": "Master REST API through 5 structured learning steps.",
+  "longDescription": "REST API is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "rest-introduction",
+      "title": "Introduction",
+      "description": "What is REST?",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "What is REST",
+          "url": "https://restfulapi.net/",
+          "source": "RESTful API"
+        },
+        {
+          "title": "REST Architectural Constraints",
+          "url": "https://restfulapi.net/rest-architectural-constraints/",
+          "source": "RESTful API"
+        }
+      ]
+    },
+    {
+      "id": "rest-http-methods",
+      "title": "HTTP Methods",
+      "description": "CRUD operations with HTTP methods.",
+      "order": 2,
+      "prerequisite": "rest-introduction",
+      "resources": [
+        {
+          "title": "HTTP Methods",
+          "url": "https://restfulapi.net/http-methods/",
+          "source": "RESTful API"
+        }
+      ]
+    },
+    {
+      "id": "rest-resource-naming",
+      "title": "Resource Naming",
+      "description": "Best practices for naming resources.",
+      "order": 3,
+      "prerequisite": "rest-http-methods",
+      "resources": [
+        {
+          "title": "Resource Naming",
+          "url": "https://restfulapi.net/resource-naming/",
+          "source": "RESTful API"
+        }
+      ]
+    },
+    {
+      "id": "rest-status-codes",
+      "title": "Status Codes",
+      "description": "Proper use of HTTP status codes.",
+      "order": 4,
+      "prerequisite": "rest-http-methods",
+      "resources": [
+        {
+          "title": "HTTP Status Codes",
+          "url": "https://restfulapi.net/http-status-codes/",
+          "source": "RESTful API"
+        }
+      ]
+    },
+    {
+      "id": "rest-best-practices",
+      "title": "Best Practices",
+      "description": "REST API design best practices.",
+      "order": 5,
+      "prerequisite": "rest-resource-naming",
+      "resources": [
+        {
+          "title": "REST API Design Best Practices",
+          "url": "https://restfulapi.net/rest-api-design-tutorial-with-example/",
+          "source": "RESTful API"
+        },
+        {
+          "title": "Versioning",
+          "url": "https://restfulapi.net/versioning/",
+          "source": "RESTful API"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "rest api",
+    "protocol",
+    "introduction",
+    "http methods",
+    "resource naming"
+  ],
+  "relatedSkillIds": [
+    "http"
+  ],
+  "faqs": [
+    {
+      "question": "What is REST API and why should I learn it?",
+      "answer": "REST API is a widely-used protocol in modern software development. Learning REST API will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn REST API?",
+      "answer": "The time to learn REST API varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning REST API?",
+      "answer": "Before diving into REST API, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

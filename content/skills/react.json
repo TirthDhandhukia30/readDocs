@@ -1,0 +1,384 @@
+{
+  "id": "react",
+  "slug": "react",
+  "name": "React",
+  "category": "library",
+  "description": "A JavaScript library for building user interfaces",
+  "summary": "Master React through 8 structured learning steps.",
+  "longDescription": "React is a powerful technology that every modern developer should master. Our structured learning path guides you through 8 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "react-quick-start",
+      "title": "Quick Start",
+      "description": "Create your first React component and learn the basics.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Quick Start",
+          "url": "https://react.dev/learn",
+          "source": "React"
+        },
+        {
+          "title": "Tutorial: Tic-Tac-Toe",
+          "url": "https://react.dev/learn/tutorial-tic-tac-toe",
+          "source": "React"
+        },
+        {
+          "title": "Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-describing-ui",
+      "title": "Describing the UI",
+      "description": "Learn to write JSX and create components.",
+      "order": 2,
+      "prerequisite": "react-quick-start",
+      "resources": [
+        {
+          "title": "Your First Component",
+          "url": "https://react.dev/learn/your-first-component",
+          "source": "React"
+        },
+        {
+          "title": "Importing and Exporting Components",
+          "url": "https://react.dev/learn/importing-and-exporting-components",
+          "source": "React"
+        },
+        {
+          "title": "Writing Markup with JSX",
+          "url": "https://react.dev/learn/writing-markup-with-jsx",
+          "source": "React"
+        },
+        {
+          "title": "JavaScript in JSX with Curly Braces",
+          "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces",
+          "source": "React"
+        },
+        {
+          "title": "Passing Props to a Component",
+          "url": "https://react.dev/learn/passing-props-to-a-component",
+          "source": "React"
+        },
+        {
+          "title": "Conditional Rendering",
+          "url": "https://react.dev/learn/conditional-rendering",
+          "source": "React"
+        },
+        {
+          "title": "Rendering Lists",
+          "url": "https://react.dev/learn/rendering-lists",
+          "source": "React"
+        },
+        {
+          "title": "Keeping Components Pure",
+          "url": "https://react.dev/learn/keeping-components-pure",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-interactivity",
+      "title": "Adding Interactivity",
+      "description": "Handle events and update the UI with state.",
+      "order": 3,
+      "prerequisite": "react-describing-ui",
+      "resources": [
+        {
+          "title": "Responding to Events",
+          "url": "https://react.dev/learn/responding-to-events",
+          "source": "React"
+        },
+        {
+          "title": "State: A Component's Memory",
+          "url": "https://react.dev/learn/state-a-components-memory",
+          "source": "React"
+        },
+        {
+          "title": "Render and Commit",
+          "url": "https://react.dev/learn/render-and-commit",
+          "source": "React"
+        },
+        {
+          "title": "State as a Snapshot",
+          "url": "https://react.dev/learn/state-as-a-snapshot",
+          "source": "React"
+        },
+        {
+          "title": "Queueing a Series of State Updates",
+          "url": "https://react.dev/learn/queueing-a-series-of-state-updates",
+          "source": "React"
+        },
+        {
+          "title": "Updating Objects in State",
+          "url": "https://react.dev/learn/updating-objects-in-state",
+          "source": "React"
+        },
+        {
+          "title": "Updating Arrays in State",
+          "url": "https://react.dev/learn/updating-arrays-in-state",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-state-management",
+      "title": "Managing State",
+      "description": "Structure state and share it between components.",
+      "order": 4,
+      "prerequisite": "react-interactivity",
+      "resources": [
+        {
+          "title": "Reacting to Input with State",
+          "url": "https://react.dev/learn/reacting-to-input-with-state",
+          "source": "React"
+        },
+        {
+          "title": "Choosing the State Structure",
+          "url": "https://react.dev/learn/choosing-the-state-structure",
+          "source": "React"
+        },
+        {
+          "title": "Sharing State Between Components",
+          "url": "https://react.dev/learn/sharing-state-between-components",
+          "source": "React"
+        },
+        {
+          "title": "Preserving and Resetting State",
+          "url": "https://react.dev/learn/preserving-and-resetting-state",
+          "source": "React"
+        },
+        {
+          "title": "Extracting State Logic into a Reducer",
+          "url": "https://react.dev/learn/extracting-state-logic-into-a-reducer",
+          "source": "React"
+        },
+        {
+          "title": "Passing Data Deeply with Context",
+          "url": "https://react.dev/learn/passing-data-deeply-with-context",
+          "source": "React"
+        },
+        {
+          "title": "Scaling Up with Reducer and Context",
+          "url": "https://react.dev/learn/scaling-up-with-reducer-and-context",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-escape-hatches",
+      "title": "Escape Hatches",
+      "description": "Work with refs, effects, and external systems.",
+      "order": 5,
+      "prerequisite": "react-state-management",
+      "resources": [
+        {
+          "title": "Referencing Values with Refs",
+          "url": "https://react.dev/learn/referencing-values-with-refs",
+          "source": "React"
+        },
+        {
+          "title": "Manipulating the DOM with Refs",
+          "url": "https://react.dev/learn/manipulating-the-dom-with-refs",
+          "source": "React"
+        },
+        {
+          "title": "Synchronizing with Effects",
+          "url": "https://react.dev/learn/synchronizing-with-effects",
+          "source": "React"
+        },
+        {
+          "title": "You Might Not Need an Effect",
+          "url": "https://react.dev/learn/you-might-not-need-an-effect",
+          "source": "React"
+        },
+        {
+          "title": "Lifecycle of Reactive Effects",
+          "url": "https://react.dev/learn/lifecycle-of-reactive-effects",
+          "source": "React"
+        },
+        {
+          "title": "Separating Events from Effects",
+          "url": "https://react.dev/learn/separating-events-from-effects",
+          "source": "React"
+        },
+        {
+          "title": "Removing Effect Dependencies",
+          "url": "https://react.dev/learn/removing-effect-dependencies",
+          "source": "React"
+        },
+        {
+          "title": "Reusing Logic with Custom Hooks",
+          "url": "https://react.dev/learn/reusing-logic-with-custom-hooks",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-hooks-reference",
+      "title": "Hooks Reference",
+      "description": "Deep dive into all built-in React Hooks.",
+      "order": 6,
+      "prerequisite": "react-escape-hatches",
+      "resources": [
+        {
+          "title": "useState",
+          "url": "https://react.dev/reference/react/useState",
+          "source": "React"
+        },
+        {
+          "title": "useEffect",
+          "url": "https://react.dev/reference/react/useEffect",
+          "source": "React"
+        },
+        {
+          "title": "useContext",
+          "url": "https://react.dev/reference/react/useContext",
+          "source": "React"
+        },
+        {
+          "title": "useRef",
+          "url": "https://react.dev/reference/react/useRef",
+          "source": "React"
+        },
+        {
+          "title": "useMemo",
+          "url": "https://react.dev/reference/react/useMemo",
+          "source": "React"
+        },
+        {
+          "title": "useCallback",
+          "url": "https://react.dev/reference/react/useCallback",
+          "source": "React"
+        },
+        {
+          "title": "useReducer",
+          "url": "https://react.dev/reference/react/useReducer",
+          "source": "React"
+        },
+        {
+          "title": "useId",
+          "url": "https://react.dev/reference/react/useId",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-19-features",
+      "title": "React 19 Features",
+      "description": "Learn the new features in React 19.",
+      "order": 7,
+      "prerequisite": "react-hooks-reference",
+      "resources": [
+        {
+          "title": "use",
+          "url": "https://react.dev/reference/react/use",
+          "source": "React"
+        },
+        {
+          "title": "useActionState",
+          "url": "https://react.dev/reference/react/useActionState",
+          "source": "React"
+        },
+        {
+          "title": "useFormStatus",
+          "url": "https://react.dev/reference/react-dom/hooks/useFormStatus",
+          "source": "React"
+        },
+        {
+          "title": "useOptimistic",
+          "url": "https://react.dev/reference/react/useOptimistic",
+          "source": "React"
+        },
+        {
+          "title": "useTransition",
+          "url": "https://react.dev/reference/react/useTransition",
+          "source": "React"
+        },
+        {
+          "title": "useDeferredValue",
+          "url": "https://react.dev/reference/react/useDeferredValue",
+          "source": "React"
+        }
+      ]
+    },
+    {
+      "id": "react-advanced-patterns",
+      "title": "Advanced Patterns",
+      "description": "Performance optimization and advanced component patterns.",
+      "order": 8,
+      "prerequisite": "react-19-features",
+      "resources": [
+        {
+          "title": "memo",
+          "url": "https://react.dev/reference/react/memo",
+          "source": "React"
+        },
+        {
+          "title": "lazy",
+          "url": "https://react.dev/reference/react/lazy",
+          "source": "React"
+        },
+        {
+          "title": "Suspense",
+          "url": "https://react.dev/reference/react/Suspense",
+          "source": "React"
+        },
+        {
+          "title": "forwardRef",
+          "url": "https://react.dev/reference/react/forwardRef",
+          "source": "React"
+        },
+        {
+          "title": "createPortal",
+          "url": "https://react.dev/reference/react-dom/createPortal",
+          "source": "React"
+        },
+        {
+          "title": "Profiler",
+          "url": "https://react.dev/reference/react/Profiler",
+          "source": "React"
+        },
+        {
+          "title": "Error Boundaries",
+          "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary",
+          "source": "React"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "react",
+    "library",
+    "quick start",
+    "describing the ui",
+    "adding interactivity"
+  ],
+  "relatedSkillIds": [
+    "react-query",
+    "better-auth",
+    "dodo-payments"
+  ],
+  "faqs": [
+    {
+      "question": "What is React and why should I learn it?",
+      "answer": "React is a widely-used library in modern software development. Learning React will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn React?",
+      "answer": "The time to learn React varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning React?",
+      "answer": "Before diving into React, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

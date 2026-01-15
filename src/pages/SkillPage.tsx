@@ -5,7 +5,10 @@ import { skillPaths, skills } from '../data/skillPaths';
 import { useState, useCallback } from 'react';
 import { useCollapsedSections } from '../hooks/useCollapsedSections';
 import { cn } from '../lib/utils';
-import { SkillPageSEO } from '../components/SEO';
+import { SkillPageSEO, Breadcrumbs, FAQSection } from '../components/SEO';
+import { RelatedContent } from '../components/RelatedContent';
+import { faqTemplates } from '../lib/seo/templates';
+import type { FAQ } from '../lib/seo/schema';
 
 export function SkillPage() {
   const { skillId } = useParams({ from: '/skill/$skillId' });
@@ -57,6 +60,15 @@ export function SkillPage() {
     );
   }
 
+  // Generate FAQs for this skill
+  const faqs: FAQ[] = faqTemplates.skill.slice(0, 4).map((template) => ({
+    question: template.question(skill.name, skill.category),
+    answer: template.answer(skill.name, skill.category),
+  }));
+
+  // Get step titles for richer SEO description
+  const stepTitles = path.steps.map(step => step.title);
+
   return (
     <>
       <SkillPageSEO
@@ -64,14 +76,25 @@ export function SkillPage() {
         skillId={skillId}
         category={skill.category}
         stepsCount={path.steps.length}
+        stepTitles={stepTitles}
       />
       <div className="max-w-2xl mx-auto px-4 pb-32">
+        {/* Breadcrumbs */}
+        <Breadcrumbs
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Skills', href: '/#skills' },
+            { label: skill.name },
+          ]}
+          className="pt-6"
+        />
+
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
-          className="pt-8 pb-12"
+          className="pt-4 pb-12"
         >
           <div className="flex items-center justify-between mb-6">
             <Link
@@ -119,9 +142,18 @@ export function SkillPage() {
             </div>
           </div>
 
-          <h1 className="text-2xl font-medium tracking-tight">{skill.name}</h1>
+          {/* H1 - Slightly different from meta title for SEO */}
+          <h1 className="text-2xl font-medium tracking-tight">Learn {skill.name}</h1>
           <p className="text-[hsl(var(--muted-foreground))] text-sm mt-2">
             {path.steps.length} steps · {skill.category}
+          </p>
+
+          {/* Long-form description for content depth */}
+          <p className="text-sm text-[hsl(var(--muted-foreground))] mt-4 leading-relaxed">
+            Master {skill.name} through our structured learning path.
+            This guide covers {stepTitles.slice(0, 3).join(', ')}
+            {stepTitles.length > 3 ? `, and ${stepTitles.length - 3} more topics` : ''}.
+            All resources link to official documentation for accurate, up-to-date information.
           </p>
         </motion.div>
 
@@ -199,6 +231,16 @@ export function SkillPage() {
             );
           })}
         </div>
+
+        {/* FAQ Section - Adds content depth and FAQ schema */}
+        <FAQSection faqs={faqs} />
+
+        {/* Related Content - Internal linking for SEO */}
+        <RelatedContent
+          currentId={skillId}
+          currentType="skill"
+          maxItems={6}
+        />
       </div>
     </>
   );

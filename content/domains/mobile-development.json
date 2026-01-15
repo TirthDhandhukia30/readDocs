@@ -1,0 +1,200 @@
+{
+  "id": "mobile-development",
+  "slug": "mobile-development",
+  "name": "Mobile Development",
+  "description": "Native and cross-platform apps",
+  "summary": "Complete Mobile Development learning path with 7 steps.",
+  "longDescription": "Mobile Development development encompasses a wide range of skills and technologies. This comprehensive learning path breaks down the journey into 7 manageable steps, covering everything from basics to advanced concepts. Follow this structured curriculum to build a solid foundation and progressively enhance your capabilities in mobile development development.",
+  "steps": [
+    {
+      "id": "mobile-fundamentals",
+      "title": "Mobile Development Concepts",
+      "description": "Understand mobile platforms, app lifecycles, and design principles.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Android App Fundamentals",
+          "url": "https://developer.android.com/guide/components/fundamentals",
+          "source": "Android Developers"
+        },
+        {
+          "title": "iOS App Life Cycle",
+          "url": "https://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle",
+          "source": "Apple Developer"
+        }
+      ]
+    },
+    {
+      "id": "swift-fundamentals",
+      "title": "Swift Programming",
+      "description": "Apple's modern programming language for iOS, macOS, and more.",
+      "order": 2,
+      "prerequisite": "mobile-fundamentals",
+      "resources": [
+        {
+          "title": "Swift Language Guide",
+          "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/",
+          "source": "Swift.org"
+        },
+        {
+          "title": "Swift Standard Library",
+          "url": "https://developer.apple.com/documentation/swift/swift-standard-library",
+          "source": "Apple Developer"
+        }
+      ]
+    },
+    {
+      "id": "swiftui",
+      "title": "SwiftUI",
+      "description": "Declarative UI framework for building iOS and macOS apps.",
+      "order": 3,
+      "prerequisite": "swift-fundamentals",
+      "resources": [
+        {
+          "title": "SwiftUI Documentation",
+          "url": "https://developer.apple.com/documentation/swiftui",
+          "source": "Apple Developer"
+        },
+        {
+          "title": "SwiftUI Tutorials",
+          "url": "https://developer.apple.com/tutorials/swiftui",
+          "source": "Apple Developer"
+        }
+      ]
+    },
+    {
+      "id": "kotlin-fundamentals",
+      "title": "Kotlin Programming",
+      "description": "Modern language for Android development endorsed by Google.",
+      "order": 4,
+      "prerequisite": "mobile-fundamentals",
+      "resources": [
+        {
+          "title": "Kotlin Documentation",
+          "url": "https://kotlinlang.org/docs/home.html",
+          "source": "Kotlin"
+        },
+        {
+          "title": "Kotlin Basics",
+          "url": "https://kotlinlang.org/docs/basic-syntax.html",
+          "source": "Kotlin"
+        },
+        {
+          "title": "Kotlin for Android",
+          "url": "https://developer.android.com/kotlin",
+          "source": "Android Developers"
+        }
+      ]
+    },
+    {
+      "id": "jetpack-compose",
+      "title": "Jetpack Compose",
+      "description": "Modern declarative UI toolkit for Android.",
+      "order": 5,
+      "prerequisite": "kotlin-fundamentals",
+      "resources": [
+        {
+          "title": "Jetpack Compose Documentation",
+          "url": "https://developer.android.com/develop/ui/compose/documentation",
+          "source": "Android Developers"
+        },
+        {
+          "title": "Compose Basics",
+          "url": "https://developer.android.com/develop/ui/compose/mental-model",
+          "source": "Android Developers"
+        },
+        {
+          "title": "Compose Layouts",
+          "url": "https://developer.android.com/develop/ui/compose/layouts",
+          "source": "Android Developers"
+        }
+      ]
+    },
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "description": "Build cross-platform mobile apps using React and JavaScript.",
+      "order": 6,
+      "prerequisite": "mobile-fundamentals",
+      "resources": [
+        {
+          "title": "React Native Introduction",
+          "url": "https://reactnative.dev/docs/getting-started",
+          "source": "React Native"
+        },
+        {
+          "title": "Core Components",
+          "url": "https://reactnative.dev/docs/components-and-apis",
+          "source": "React Native"
+        },
+        {
+          "title": "Navigation",
+          "url": "https://reactnavigation.org/docs/getting-started",
+          "source": "React Navigation"
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "title": "Flutter",
+      "description": "Google's UI toolkit for building natively compiled applications.",
+      "order": 7,
+      "prerequisite": "mobile-fundamentals",
+      "resources": [
+        {
+          "title": "Flutter Documentation",
+          "url": "https://docs.flutter.dev/",
+          "source": "Flutter"
+        },
+        {
+          "title": "Dart Language",
+          "url": "https://dart.dev/language",
+          "source": "Dart"
+        },
+        {
+          "title": "Widget Catalog",
+          "url": "https://docs.flutter.dev/ui/widgets",
+          "source": "Flutter"
+        },
+        {
+          "title": "State Management",
+          "url": "https://docs.flutter.dev/data-and-backend/state-mgmt",
+          "source": "Flutter"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "mobile development",
+    "development",
+    "learning path"
+  ],
+  "relatedDomainIds": [
+    "web-development",
+    "web3",
+    "ai-ml"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "tailwindcss",
+    "nextjs",
+    "typescript",
+    "react-query"
+  ],
+  "faqs": [
+    {
+      "question": "What is Mobile Development development?",
+      "answer": "Mobile Development development involves creating and maintaining mobile development applications. It encompasses various technologies, frameworks, and best practices."
+    },
+    {
+      "question": "How do I get started with Mobile Development development?",
+      "answer": "Start with the fundamentals in our Mobile Development learning path. We've organized the materials in optimal learning order to help you progress efficiently."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}

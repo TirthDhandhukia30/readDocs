@@ -1,0 +1,103 @@
+{
+  "id": "framer-motion",
+  "slug": "framer-motion",
+  "name": "Framer Motion",
+  "category": "library",
+  "description": "Production-ready animations for React",
+  "summary": "Master Framer Motion through 4 structured learning steps.",
+  "longDescription": "Framer Motion is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "fm-introduction",
+      "title": "Introduction",
+      "description": "Basic animation concepts.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Introduction",
+          "url": "https://motion.dev/docs/react-quick-start",
+          "source": "Motion"
+        },
+        {
+          "title": "Animation",
+          "url": "https://motion.dev/docs/react-animation",
+          "source": "Motion"
+        }
+      ]
+    },
+    {
+      "id": "fm-gestures",
+      "title": "Gestures",
+      "description": "Hover, tap, drag interactions.",
+      "order": 2,
+      "prerequisite": "fm-introduction",
+      "resources": [
+        {
+          "title": "Gestures",
+          "url": "https://motion.dev/docs/react-gestures",
+          "source": "Motion"
+        }
+      ]
+    },
+    {
+      "id": "fm-layout",
+      "title": "Layout Animations",
+      "description": "Animate layout changes automatically.",
+      "order": 3,
+      "prerequisite": "fm-gestures",
+      "resources": [
+        {
+          "title": "Layout Animations",
+          "url": "https://motion.dev/docs/react-layout-animations",
+          "source": "Motion"
+        }
+      ]
+    },
+    {
+      "id": "fm-exit",
+      "title": "Exit Animations",
+      "description": "Animate components when they unmount.",
+      "order": 4,
+      "prerequisite": "fm-layout",
+      "resources": [
+        {
+          "title": "AnimatePresence",
+          "url": "https://motion.dev/docs/react-animate-presence",
+          "source": "Motion"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "framer motion",
+    "library",
+    "introduction",
+    "gestures",
+    "layout animations"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is Framer Motion and why should I learn it?",
+      "answer": "Framer Motion is a widely-used library in modern software development. Learning Framer Motion will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Framer Motion?",
+      "answer": "The time to learn Framer Motion varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Framer Motion?",
+      "answer": "Before diving into Framer Motion, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

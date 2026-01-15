@@ -1,0 +1,157 @@
+{
+  "id": "linux",
+  "slug": "linux",
+  "name": "Linux",
+  "category": "tool",
+  "description": "Linux command line and system administration",
+  "summary": "Master Linux through 5 structured learning steps.",
+  "longDescription": "Linux is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "linux-basics",
+      "title": "Command Line Basics",
+      "description": "Essential Linux commands.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Linux man pages",
+          "url": "https://man7.org/linux/man-pages/",
+          "source": "Linux"
+        },
+        {
+          "title": "GNU Coreutils",
+          "url": "https://www.gnu.org/software/coreutils/manual/",
+          "source": "GNU"
+        }
+      ]
+    },
+    {
+      "id": "linux-file-system",
+      "title": "File System",
+      "description": "Navigating and managing files.",
+      "order": 2,
+      "prerequisite": "linux-basics",
+      "resources": [
+        {
+          "title": "ls - list directory",
+          "url": "https://man7.org/linux/man-pages/man1/ls.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "cp - copy files",
+          "url": "https://man7.org/linux/man-pages/man1/cp.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "mv - move files",
+          "url": "https://man7.org/linux/man-pages/man1/mv.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "rm - remove files",
+          "url": "https://man7.org/linux/man-pages/man1/rm.1.html",
+          "source": "Linux"
+        }
+      ]
+    },
+    {
+      "id": "linux-permissions",
+      "title": "Permissions",
+      "description": "File permissions and ownership.",
+      "order": 3,
+      "prerequisite": "linux-file-system",
+      "resources": [
+        {
+          "title": "chmod - change permissions",
+          "url": "https://man7.org/linux/man-pages/man1/chmod.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "chown - change owner",
+          "url": "https://man7.org/linux/man-pages/man1/chown.1.html",
+          "source": "Linux"
+        }
+      ]
+    },
+    {
+      "id": "linux-processes",
+      "title": "Processes",
+      "description": "Managing processes.",
+      "order": 4,
+      "prerequisite": "linux-basics",
+      "resources": [
+        {
+          "title": "ps - process status",
+          "url": "https://man7.org/linux/man-pages/man1/ps.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "kill - terminate process",
+          "url": "https://man7.org/linux/man-pages/man1/kill.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "top - system monitor",
+          "url": "https://man7.org/linux/man-pages/man1/top.1.html",
+          "source": "Linux"
+        }
+      ]
+    },
+    {
+      "id": "linux-networking",
+      "title": "Networking",
+      "description": "Network commands and tools.",
+      "order": 5,
+      "prerequisite": "linux-basics",
+      "resources": [
+        {
+          "title": "curl - transfer data",
+          "url": "https://man7.org/linux/man-pages/man1/curl.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "ssh - secure shell",
+          "url": "https://man7.org/linux/man-pages/man1/ssh.1.html",
+          "source": "Linux"
+        },
+        {
+          "title": "scp - secure copy",
+          "url": "https://man7.org/linux/man-pages/man1/scp.1.html",
+          "source": "Linux"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "linux",
+    "tool",
+    "command line basics",
+    "file system",
+    "permissions"
+  ],
+  "relatedSkillIds": [
+    "prisma",
+    "drizzle",
+    "docker"
+  ],
+  "faqs": [
+    {
+      "question": "What is Linux and why should I learn it?",
+      "answer": "Linux is a widely-used tool in modern software development. Learning Linux will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Linux?",
+      "answer": "The time to learn Linux varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Linux?",
+      "answer": "Before diving into Linux, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

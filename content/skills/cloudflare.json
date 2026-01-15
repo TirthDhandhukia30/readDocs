@@ -1,0 +1,156 @@
+{
+  "id": "cloudflare",
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "category": "cloud",
+  "description": "Edge network and developer platform",
+  "summary": "Master Cloudflare through 6 structured learning steps.",
+  "longDescription": "Cloudflare is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "cloudflare-getting-started",
+      "title": "Getting Started",
+      "description": "Set up Cloudflare for your site.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://developers.cloudflare.com/fundamentals/setup/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "DNS Setup",
+          "url": "https://developers.cloudflare.com/dns/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-workers",
+      "title": "Workers",
+      "description": "Serverless functions at the edge.",
+      "order": 2,
+      "prerequisite": "cloudflare-getting-started",
+      "resources": [
+        {
+          "title": "Workers Overview",
+          "url": "https://developers.cloudflare.com/workers/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "Get Started",
+          "url": "https://developers.cloudflare.com/workers/get-started/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-pages",
+      "title": "Pages",
+      "description": "Deploy static sites and full-stack apps.",
+      "order": 3,
+      "prerequisite": "cloudflare-getting-started",
+      "resources": [
+        {
+          "title": "Pages Overview",
+          "url": "https://developers.cloudflare.com/pages/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "Framework Guides",
+          "url": "https://developers.cloudflare.com/pages/framework-guides/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-r2",
+      "title": "R2 Storage",
+      "description": "S3-compatible object storage.",
+      "order": 4,
+      "prerequisite": "cloudflare-workers",
+      "resources": [
+        {
+          "title": "R2 Overview",
+          "url": "https://developers.cloudflare.com/r2/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "R2 API",
+          "url": "https://developers.cloudflare.com/r2/api/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-d1",
+      "title": "D1 Database",
+      "description": "Serverless SQL database.",
+      "order": 5,
+      "prerequisite": "cloudflare-workers",
+      "resources": [
+        {
+          "title": "D1 Overview",
+          "url": "https://developers.cloudflare.com/d1/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "Get Started",
+          "url": "https://developers.cloudflare.com/d1/get-started/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-kv",
+      "title": "KV Storage",
+      "description": "Key-value storage at the edge.",
+      "order": 6,
+      "prerequisite": "cloudflare-workers",
+      "resources": [
+        {
+          "title": "KV Overview",
+          "url": "https://developers.cloudflare.com/kv/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "KV API",
+          "url": "https://developers.cloudflare.com/kv/api/",
+          "source": "Cloudflare"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "cloudflare",
+    "cloud",
+    "getting started",
+    "workers",
+    "pages"
+  ],
+  "relatedSkillIds": [
+    "supabase",
+    "firebase",
+    "aws"
+  ],
+  "faqs": [
+    {
+      "question": "What is Cloudflare and why should I learn it?",
+      "answer": "Cloudflare is a widely-used cloud in modern software development. Learning Cloudflare will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Cloudflare?",
+      "answer": "The time to learn Cloudflare varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Cloudflare?",
+      "answer": "Before diving into Cloudflare, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

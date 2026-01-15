@@ -1,0 +1,125 @@
+{
+  "id": "http",
+  "slug": "http",
+  "name": "HTTP",
+  "category": "protocol",
+  "description": "Hypertext Transfer Protocol",
+  "summary": "Master HTTP through 5 structured learning steps.",
+  "longDescription": "HTTP is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "http-basics",
+      "title": "HTTP Basics",
+      "description": "Understanding HTTP fundamentals.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "An overview of HTTP",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+          "source": "MDN"
+        },
+        {
+          "title": "HTTP Basics",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP",
+          "source": "MDN"
+        }
+      ]
+    },
+    {
+      "id": "http-methods",
+      "title": "HTTP Methods",
+      "description": "GET, POST, PUT, DELETE, PATCH.",
+      "order": 2,
+      "prerequisite": "http-basics",
+      "resources": [
+        {
+          "title": "HTTP request methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+          "source": "MDN"
+        },
+        {
+          "title": "Safe methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Safe/HTTP",
+          "source": "MDN"
+        }
+      ]
+    },
+    {
+      "id": "http-status-codes",
+      "title": "Status Codes",
+      "description": "HTTP response status codes.",
+      "order": 3,
+      "prerequisite": "http-basics",
+      "resources": [
+        {
+          "title": "HTTP response status codes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+          "source": "MDN"
+        }
+      ]
+    },
+    {
+      "id": "http-headers",
+      "title": "Headers",
+      "description": "Request and response headers.",
+      "order": 4,
+      "prerequisite": "http-methods",
+      "resources": [
+        {
+          "title": "HTTP headers",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+          "source": "MDN"
+        },
+        {
+          "title": "Content-Type",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
+          "source": "MDN"
+        }
+      ]
+    },
+    {
+      "id": "http-cors",
+      "title": "CORS",
+      "description": "Cross-Origin Resource Sharing.",
+      "order": 5,
+      "prerequisite": "http-headers",
+      "resources": [
+        {
+          "title": "Cross-Origin Resource Sharing (CORS)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+          "source": "MDN"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "http",
+    "protocol",
+    "http basics",
+    "http methods",
+    "status codes"
+  ],
+  "relatedSkillIds": [
+    "rest"
+  ],
+  "faqs": [
+    {
+      "question": "What is HTTP and why should I learn it?",
+      "answer": "HTTP is a widely-used protocol in modern software development. Learning HTTP will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn HTTP?",
+      "answer": "The time to learn HTTP varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning HTTP?",
+      "answer": "Before diving into HTTP, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

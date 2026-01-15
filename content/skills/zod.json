@@ -1,0 +1,138 @@
+{
+  "id": "zod",
+  "slug": "zod",
+  "name": "Zod",
+  "category": "library",
+  "description": "TypeScript-first schema validation",
+  "summary": "Master Zod through 4 structured learning steps.",
+  "longDescription": "Zod is a powerful technology that every modern developer should master. Our structured learning path guides you through 4 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "zod-intro",
+      "title": "Introduction",
+      "description": "Basic schema creation and validation.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Introduction",
+          "url": "https://zod.dev/?id=introduction",
+          "source": "Zod"
+        },
+        {
+          "title": "Installation",
+          "url": "https://zod.dev/?id=installation",
+          "source": "Zod"
+        },
+        {
+          "title": "Basic Usage",
+          "url": "https://zod.dev/?id=basic-usage",
+          "source": "Zod"
+        }
+      ]
+    },
+    {
+      "id": "zod-primitives",
+      "title": "Primitives",
+      "description": "String, number, boolean, and other primitive types.",
+      "order": 2,
+      "prerequisite": "zod-intro",
+      "resources": [
+        {
+          "title": "Primitives",
+          "url": "https://zod.dev/?id=primitives",
+          "source": "Zod"
+        },
+        {
+          "title": "Strings",
+          "url": "https://zod.dev/?id=strings",
+          "source": "Zod"
+        },
+        {
+          "title": "Numbers",
+          "url": "https://zod.dev/?id=numbers",
+          "source": "Zod"
+        }
+      ]
+    },
+    {
+      "id": "zod-objects",
+      "title": "Objects & Arrays",
+      "description": "Complex schema composition.",
+      "order": 3,
+      "prerequisite": "zod-primitives",
+      "resources": [
+        {
+          "title": "Objects",
+          "url": "https://zod.dev/?id=objects",
+          "source": "Zod"
+        },
+        {
+          "title": "Arrays",
+          "url": "https://zod.dev/?id=arrays",
+          "source": "Zod"
+        },
+        {
+          "title": "Unions",
+          "url": "https://zod.dev/?id=unions",
+          "source": "Zod"
+        }
+      ]
+    },
+    {
+      "id": "zod-advanced",
+      "title": "Advanced",
+      "description": "Transforms, refinements, and type inference.",
+      "order": 4,
+      "prerequisite": "zod-objects",
+      "resources": [
+        {
+          "title": "Type Inference",
+          "url": "https://zod.dev/?id=type-inference",
+          "source": "Zod"
+        },
+        {
+          "title": "Transforms",
+          "url": "https://zod.dev/?id=transform",
+          "source": "Zod"
+        },
+        {
+          "title": "Refinements",
+          "url": "https://zod.dev/?id=refine",
+          "source": "Zod"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "zod",
+    "library",
+    "introduction",
+    "primitives",
+    "objects & arrays"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is Zod and why should I learn it?",
+      "answer": "Zod is a widely-used library in modern software development. Learning Zod will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Zod?",
+      "answer": "The time to learn Zod varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Zod?",
+      "answer": "Before diving into Zod, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

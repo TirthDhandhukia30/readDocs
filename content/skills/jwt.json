@@ -1,0 +1,141 @@
+{
+  "id": "jwt",
+  "slug": "jwt",
+  "name": "JWT",
+  "category": "library",
+  "description": "JSON Web Tokens for authentication",
+  "summary": "Master JWT through 6 structured learning steps.",
+  "longDescription": "JWT is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "jwt-introduction",
+      "title": "Introduction",
+      "description": "What is JWT?",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Introduction to JSON Web Tokens",
+          "url": "https://jwt.io/introduction",
+          "source": "JWT.io"
+        },
+        {
+          "title": "JWT Debugger",
+          "url": "https://jwt.io/",
+          "source": "JWT.io"
+        }
+      ]
+    },
+    {
+      "id": "jwt-structure",
+      "title": "Token Structure",
+      "description": "Header, payload, and signature.",
+      "order": 2,
+      "prerequisite": "jwt-introduction",
+      "resources": [
+        {
+          "title": "JWT Structure",
+          "url": "https://jwt.io/introduction#what-is-the-json-web-token-structure-",
+          "source": "JWT.io"
+        },
+        {
+          "title": "RFC 7519 - JWT",
+          "url": "https://datatracker.ietf.org/doc/html/rfc7519",
+          "source": "IETF"
+        }
+      ]
+    },
+    {
+      "id": "jwt-claims",
+      "title": "Claims",
+      "description": "Standard and custom claims.",
+      "order": 3,
+      "prerequisite": "jwt-structure",
+      "resources": [
+        {
+          "title": "JWT Claims",
+          "url": "https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-token-claims",
+          "source": "Auth0"
+        }
+      ]
+    },
+    {
+      "id": "jwt-signing",
+      "title": "Signing Algorithms",
+      "description": "HS256, RS256, and more.",
+      "order": 4,
+      "prerequisite": "jwt-structure",
+      "resources": [
+        {
+          "title": "Signing Algorithms",
+          "url": "https://auth0.com/docs/get-started/applications/signing-algorithms",
+          "source": "Auth0"
+        }
+      ]
+    },
+    {
+      "id": "jwt-best-practices",
+      "title": "Best Practices",
+      "description": "Security best practices.",
+      "order": 5,
+      "prerequisite": "jwt-claims",
+      "resources": [
+        {
+          "title": "JWT Best Practices",
+          "url": "https://auth0.com/blog/a-look-at-the-latest-draft-for-jwt-bcp/",
+          "source": "Auth0"
+        },
+        {
+          "title": "Token Storage",
+          "url": "https://auth0.com/docs/secure/security-guidance/data-security/token-storage",
+          "source": "Auth0"
+        }
+      ]
+    },
+    {
+      "id": "jwt-refresh-tokens",
+      "title": "Refresh Tokens",
+      "description": "Token rotation strategies.",
+      "order": 6,
+      "prerequisite": "jwt-best-practices",
+      "resources": [
+        {
+          "title": "Refresh Tokens",
+          "url": "https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/",
+          "source": "Auth0"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "jwt",
+    "library",
+    "introduction",
+    "token structure",
+    "claims"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is JWT and why should I learn it?",
+      "answer": "JWT is a widely-used library in modern software development. Learning JWT will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn JWT?",
+      "answer": "The time to learn JWT varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning JWT?",
+      "answer": "Before diving into JWT, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

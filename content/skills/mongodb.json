@@ -1,0 +1,145 @@
+{
+  "id": "mongodb",
+  "slug": "mongodb",
+  "name": "MongoDB",
+  "category": "database",
+  "description": "Document database",
+  "summary": "Master MongoDB through 5 structured learning steps.",
+  "longDescription": "MongoDB is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "mongodb-getting-started",
+      "title": "Getting Started",
+      "description": "Set up MongoDB.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/getting-started/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "MongoDB Atlas",
+          "url": "https://www.mongodb.com/docs/atlas/getting-started/",
+          "source": "MongoDB"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-crud",
+      "title": "CRUD Operations",
+      "description": "Create, read, update, delete documents.",
+      "order": 2,
+      "prerequisite": "mongodb-getting-started",
+      "resources": [
+        {
+          "title": "Insert Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/insert-documents/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "Query Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "Update Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/update-documents/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "Delete Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/remove-documents/",
+          "source": "MongoDB"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-aggregation",
+      "title": "Aggregation",
+      "description": "Data aggregation pipeline.",
+      "order": 3,
+      "prerequisite": "mongodb-crud",
+      "resources": [
+        {
+          "title": "Aggregation Overview",
+          "url": "https://www.mongodb.com/docs/manual/aggregation/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "Aggregation Pipeline",
+          "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/",
+          "source": "MongoDB"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-indexes",
+      "title": "Indexes",
+      "description": "Improve query performance.",
+      "order": 4,
+      "prerequisite": "mongodb-crud",
+      "resources": [
+        {
+          "title": "Indexes",
+          "url": "https://www.mongodb.com/docs/manual/indexes/",
+          "source": "MongoDB"
+        },
+        {
+          "title": "Create Index",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndex/",
+          "source": "MongoDB"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-mongoose",
+      "title": "Mongoose ODM",
+      "description": "MongoDB object modeling for Node.js.",
+      "order": 5,
+      "prerequisite": "mongodb-crud",
+      "resources": [
+        {
+          "title": "Mongoose Quickstart",
+          "url": "https://mongoosejs.com/docs/index.html",
+          "source": "Mongoose"
+        },
+        {
+          "title": "Schemas",
+          "url": "https://mongoosejs.com/docs/guide.html",
+          "source": "Mongoose"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "mongodb",
+    "database",
+    "getting started",
+    "crud operations",
+    "aggregation"
+  ],
+  "relatedSkillIds": [
+    "postgresql"
+  ],
+  "faqs": [
+    {
+      "question": "What is MongoDB and why should I learn it?",
+      "answer": "MongoDB is a widely-used database in modern software development. Learning MongoDB will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn MongoDB?",
+      "answer": "The time to learn MongoDB varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning MongoDB?",
+      "answer": "Before diving into MongoDB, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

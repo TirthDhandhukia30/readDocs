@@ -1,0 +1,94 @@
+{
+  "id": "zustand",
+  "slug": "zustand",
+  "name": "Zustand",
+  "category": "library",
+  "description": "Lightweight state management",
+  "summary": "Master Zustand through 3 structured learning steps.",
+  "longDescription": "Zustand is a powerful technology that every modern developer should master. Our structured learning path guides you through 3 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "zustand-intro",
+      "title": "Getting Started",
+      "description": "Create your first store.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://zustand.docs.pmnd.rs/getting-started/introduction",
+          "source": "Zustand"
+        }
+      ]
+    },
+    {
+      "id": "zustand-guides",
+      "title": "Guides",
+      "description": "Best practices and patterns.",
+      "order": 2,
+      "prerequisite": "zustand-intro",
+      "resources": [
+        {
+          "title": "Updating State",
+          "url": "https://zustand.docs.pmnd.rs/guides/updating-state",
+          "source": "Zustand"
+        },
+        {
+          "title": "Immutable State",
+          "url": "https://zustand.docs.pmnd.rs/guides/immutable-state-and-merging",
+          "source": "Zustand"
+        }
+      ]
+    },
+    {
+      "id": "zustand-middleware",
+      "title": "Middleware",
+      "description": "Persist, devtools, and more.",
+      "order": 3,
+      "prerequisite": "zustand-guides",
+      "resources": [
+        {
+          "title": "Persist Middleware",
+          "url": "https://zustand.docs.pmnd.rs/middlewares/persist",
+          "source": "Zustand"
+        },
+        {
+          "title": "Devtools",
+          "url": "https://zustand.docs.pmnd.rs/middlewares/devtools",
+          "source": "Zustand"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "zustand",
+    "library",
+    "getting started",
+    "guides",
+    "middleware"
+  ],
+  "relatedSkillIds": [
+    "react",
+    "react-query",
+    "better-auth"
+  ],
+  "faqs": [
+    {
+      "question": "What is Zustand and why should I learn it?",
+      "answer": "Zustand is a widely-used library in modern software development. Learning Zustand will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Zustand?",
+      "answer": "The time to learn Zustand varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Zustand?",
+      "answer": "Before diving into Zustand, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

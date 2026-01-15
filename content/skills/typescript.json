@@ -1,0 +1,132 @@
+{
+  "id": "typescript",
+  "slug": "typescript",
+  "name": "TypeScript",
+  "category": "language",
+  "description": "Typed JavaScript at scale",
+  "summary": "Master TypeScript through 6 structured learning steps.",
+  "longDescription": "TypeScript is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "ts-basics",
+      "title": "The Basics",
+      "description": "Core TypeScript concepts and type system.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "TypeScript for JavaScript Programmers",
+          "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+          "source": "TypeScript"
+        },
+        {
+          "title": "The Basics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html",
+          "source": "TypeScript"
+        },
+        {
+          "title": "Everyday Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+          "source": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "ts-narrowing",
+      "title": "Narrowing",
+      "description": "Type guards and control flow analysis.",
+      "order": 2,
+      "prerequisite": "ts-basics",
+      "resources": [
+        {
+          "title": "Narrowing",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html",
+          "source": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "ts-functions",
+      "title": "Functions",
+      "description": "Function types, generics, and overloads.",
+      "order": 3,
+      "prerequisite": "ts-narrowing",
+      "resources": [
+        {
+          "title": "More on Functions",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html",
+          "source": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "ts-objects",
+      "title": "Object Types",
+      "description": "Interfaces, type aliases, and object manipulation.",
+      "order": 4,
+      "prerequisite": "ts-functions",
+      "resources": [
+        {
+          "title": "Object Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+          "source": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "ts-generics",
+      "title": "Generics",
+      "description": "Creating reusable, type-safe components.",
+      "order": 5,
+      "prerequisite": "ts-objects",
+      "resources": [
+        {
+          "title": "Generics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html",
+          "source": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "ts-utility-types",
+      "title": "Utility Types",
+      "description": "Built-in type transformations.",
+      "order": 6,
+      "prerequisite": "ts-generics",
+      "resources": [
+        {
+          "title": "Utility Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html",
+          "source": "TypeScript"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "typescript",
+    "language",
+    "the basics",
+    "narrowing",
+    "functions"
+  ],
+  "relatedSkillIds": [],
+  "faqs": [
+    {
+      "question": "What is TypeScript and why should I learn it?",
+      "answer": "TypeScript is a widely-used language in modern software development. Learning TypeScript will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn TypeScript?",
+      "answer": "The time to learn TypeScript varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning TypeScript?",
+      "answer": "Before diving into TypeScript, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

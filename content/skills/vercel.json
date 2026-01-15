@@ -1,0 +1,142 @@
+{
+  "id": "vercel",
+  "slug": "vercel",
+  "name": "Vercel",
+  "category": "cloud",
+  "description": "Frontend cloud platform",
+  "summary": "Master Vercel through 5 structured learning steps.",
+  "longDescription": "Vercel is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "vercel-getting-started",
+      "title": "Getting Started",
+      "description": "Deploy your first project.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Getting Started",
+          "url": "https://vercel.com/docs/getting-started-with-vercel",
+          "source": "Vercel"
+        },
+        {
+          "title": "Deployments",
+          "url": "https://vercel.com/docs/deployments/overview",
+          "source": "Vercel"
+        }
+      ]
+    },
+    {
+      "id": "vercel-frameworks",
+      "title": "Framework Support",
+      "description": "Deploy Next.js, Vite, and more.",
+      "order": 2,
+      "prerequisite": "vercel-getting-started",
+      "resources": [
+        {
+          "title": "Next.js on Vercel",
+          "url": "https://vercel.com/docs/frameworks/nextjs",
+          "source": "Vercel"
+        },
+        {
+          "title": "Vite on Vercel",
+          "url": "https://vercel.com/docs/frameworks/vite",
+          "source": "Vercel"
+        }
+      ]
+    },
+    {
+      "id": "vercel-functions",
+      "title": "Serverless Functions",
+      "description": "API routes and edge functions.",
+      "order": 3,
+      "prerequisite": "vercel-getting-started",
+      "resources": [
+        {
+          "title": "Functions Overview",
+          "url": "https://vercel.com/docs/functions",
+          "source": "Vercel"
+        },
+        {
+          "title": "Edge Functions",
+          "url": "https://vercel.com/docs/functions/edge-functions",
+          "source": "Vercel"
+        }
+      ]
+    },
+    {
+      "id": "vercel-domains",
+      "title": "Domains & SSL",
+      "description": "Custom domains and HTTPS.",
+      "order": 4,
+      "prerequisite": "vercel-getting-started",
+      "resources": [
+        {
+          "title": "Custom Domains",
+          "url": "https://vercel.com/docs/projects/domains",
+          "source": "Vercel"
+        },
+        {
+          "title": "SSL Certificates",
+          "url": "https://vercel.com/docs/security/ssl",
+          "source": "Vercel"
+        }
+      ]
+    },
+    {
+      "id": "vercel-storage",
+      "title": "Storage",
+      "description": "KV, Postgres, and Blob storage.",
+      "order": 5,
+      "prerequisite": "vercel-functions",
+      "resources": [
+        {
+          "title": "Vercel Storage",
+          "url": "https://vercel.com/docs/storage",
+          "source": "Vercel"
+        },
+        {
+          "title": "Vercel Postgres",
+          "url": "https://vercel.com/docs/storage/vercel-postgres",
+          "source": "Vercel"
+        },
+        {
+          "title": "Vercel KV",
+          "url": "https://vercel.com/docs/storage/vercel-kv",
+          "source": "Vercel"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "vercel",
+    "cloud",
+    "getting started",
+    "framework support",
+    "serverless functions"
+  ],
+  "relatedSkillIds": [
+    "supabase",
+    "firebase",
+    "aws"
+  ],
+  "faqs": [
+    {
+      "question": "What is Vercel and why should I learn it?",
+      "answer": "Vercel is a widely-used cloud in modern software development. Learning Vercel will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Vercel?",
+      "answer": "The time to learn Vercel varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Vercel?",
+      "answer": "Before diving into Vercel, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

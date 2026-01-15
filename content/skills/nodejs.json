@@ -1,0 +1,145 @@
+{
+  "id": "nodejs",
+  "slug": "nodejs",
+  "name": "Node.js",
+  "category": "runtime",
+  "description": "JavaScript runtime built on Chrome V8",
+  "summary": "Master Node.js through 5 structured learning steps.",
+  "longDescription": "Node.js is a powerful technology that every modern developer should master. Our structured learning path guides you through 5 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "nodejs-getting-started",
+      "title": "Getting Started",
+      "description": "Introduction to Node.js.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Introduction to Node.js",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+          "source": "Node.js"
+        },
+        {
+          "title": "How to install Node.js",
+          "url": "https://nodejs.org/en/learn/getting-started/how-to-install-nodejs",
+          "source": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": "nodejs-core-modules",
+      "title": "Core Modules",
+      "description": "Built-in Node.js modules.",
+      "order": 2,
+      "prerequisite": "nodejs-getting-started",
+      "resources": [
+        {
+          "title": "File System (fs)",
+          "url": "https://nodejs.org/api/fs.html",
+          "source": "Node.js"
+        },
+        {
+          "title": "Path",
+          "url": "https://nodejs.org/api/path.html",
+          "source": "Node.js"
+        },
+        {
+          "title": "HTTP",
+          "url": "https://nodejs.org/api/http.html",
+          "source": "Node.js"
+        },
+        {
+          "title": "Events",
+          "url": "https://nodejs.org/api/events.html",
+          "source": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": "nodejs-async",
+      "title": "Asynchronous Patterns",
+      "description": "Callbacks, Promises, and async/await.",
+      "order": 3,
+      "prerequisite": "nodejs-core-modules",
+      "resources": [
+        {
+          "title": "Asynchronous flow control",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/asynchronous-flow-control",
+          "source": "Node.js"
+        },
+        {
+          "title": "JavaScript Asynchronous Programming",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks",
+          "source": "Node.js"
+        }
+      ]
+    },
+    {
+      "id": "nodejs-npm",
+      "title": "npm & Packages",
+      "description": "Package management with npm.",
+      "order": 4,
+      "prerequisite": "nodejs-getting-started",
+      "resources": [
+        {
+          "title": "An introduction to npm",
+          "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+          "source": "Node.js"
+        },
+        {
+          "title": "npm Docs",
+          "url": "https://docs.npmjs.com/",
+          "source": "npm"
+        }
+      ]
+    },
+    {
+      "id": "nodejs-streams",
+      "title": "Streams",
+      "description": "Working with streams.",
+      "order": 5,
+      "prerequisite": "nodejs-async",
+      "resources": [
+        {
+          "title": "Stream API",
+          "url": "https://nodejs.org/api/stream.html",
+          "source": "Node.js"
+        },
+        {
+          "title": "Backpressuring in Streams",
+          "url": "https://nodejs.org/en/learn/modules/backpressuring-in-streams",
+          "source": "Node.js"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "node.js",
+    "runtime",
+    "getting started",
+    "core modules",
+    "asynchronous patterns"
+  ],
+  "relatedSkillIds": [
+    "bun"
+  ],
+  "faqs": [
+    {
+      "question": "What is Node.js and why should I learn it?",
+      "answer": "Node.js is a widely-used runtime in modern software development. Learning Node.js will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Node.js?",
+      "answer": "The time to learn Node.js varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Node.js?",
+      "answer": "Before diving into Node.js, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

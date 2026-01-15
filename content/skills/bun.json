@@ -1,0 +1,149 @@
+{
+  "id": "bun",
+  "slug": "bun",
+  "name": "Bun",
+  "category": "runtime",
+  "description": "Fast all-in-one JavaScript runtime",
+  "summary": "Master Bun through 6 structured learning steps.",
+  "longDescription": "Bun is a powerful technology that every modern developer should master. Our structured learning path guides you through 6 essential steps, from foundational concepts to advanced techniques. Each step includes curated resources from official documentation, ensuring you learn from authoritative and up-to-date sources. Whether you're a beginner or looking to deepen your expertise, this learning path provides the guidance you need.",
+  "steps": [
+    {
+      "id": "bun-installation",
+      "title": "Installation",
+      "description": "Install and set up Bun.",
+      "order": 1,
+      "prerequisite": null,
+      "resources": [
+        {
+          "title": "Installation",
+          "url": "https://bun.sh/docs/installation",
+          "source": "Bun"
+        },
+        {
+          "title": "Quickstart",
+          "url": "https://bun.sh/docs/quickstart",
+          "source": "Bun"
+        }
+      ]
+    },
+    {
+      "id": "bun-runtime",
+      "title": "Runtime",
+      "description": "Running JavaScript/TypeScript.",
+      "order": 2,
+      "prerequisite": "bun-installation",
+      "resources": [
+        {
+          "title": "bun run",
+          "url": "https://bun.sh/docs/cli/run",
+          "source": "Bun"
+        },
+        {
+          "title": "TypeScript",
+          "url": "https://bun.sh/docs/runtime/typescript",
+          "source": "Bun"
+        }
+      ]
+    },
+    {
+      "id": "bun-package-manager",
+      "title": "Package Manager",
+      "description": "Fast npm-compatible package manager.",
+      "order": 3,
+      "prerequisite": "bun-installation",
+      "resources": [
+        {
+          "title": "bun install",
+          "url": "https://bun.sh/docs/cli/install",
+          "source": "Bun"
+        },
+        {
+          "title": "bun add",
+          "url": "https://bun.sh/docs/cli/add",
+          "source": "Bun"
+        }
+      ]
+    },
+    {
+      "id": "bun-apis",
+      "title": "Bun APIs",
+      "description": "Built-in APIs for common tasks.",
+      "order": 4,
+      "prerequisite": "bun-runtime",
+      "resources": [
+        {
+          "title": "HTTP server (Bun.serve)",
+          "url": "https://bun.sh/docs/api/http",
+          "source": "Bun"
+        },
+        {
+          "title": "File I/O (Bun.file)",
+          "url": "https://bun.sh/docs/api/file-io",
+          "source": "Bun"
+        },
+        {
+          "title": "SQLite",
+          "url": "https://bun.sh/docs/api/sqlite",
+          "source": "Bun"
+        }
+      ]
+    },
+    {
+      "id": "bun-bundler",
+      "title": "Bundler",
+      "description": "Bundle for production.",
+      "order": 5,
+      "prerequisite": "bun-runtime",
+      "resources": [
+        {
+          "title": "Bundler",
+          "url": "https://bun.sh/docs/bundler",
+          "source": "Bun"
+        }
+      ]
+    },
+    {
+      "id": "bun-test",
+      "title": "Test Runner",
+      "description": "Built-in test runner.",
+      "order": 6,
+      "prerequisite": "bun-runtime",
+      "resources": [
+        {
+          "title": "bun test",
+          "url": "https://bun.sh/docs/cli/test",
+          "source": "Bun"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "bun",
+    "runtime",
+    "installation",
+    "runtime",
+    "package manager"
+  ],
+  "relatedSkillIds": [
+    "nodejs"
+  ],
+  "faqs": [
+    {
+      "question": "What is Bun and why should I learn it?",
+      "answer": "Bun is a widely-used runtime in modern software development. Learning Bun will help you build better applications and make you more marketable as a developer."
+    },
+    {
+      "question": "How long does it take to learn Bun?",
+      "answer": "The time to learn Bun varies based on your background and dedication. With consistent practice, most developers become proficient within 2-4 weeks of focused study."
+    },
+    {
+      "question": "What are the prerequisites for learning Bun?",
+      "answer": "Before diving into Bun, you should have a solid foundation in programming fundamentals. Check our learning path prerequisites for specific requirements."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 80
+  }
+}

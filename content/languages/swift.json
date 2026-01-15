@@ -1,0 +1,39 @@
+{
+  "id": "swift",
+  "slug": "swift",
+  "name": "Swift",
+  "description": "Programming language documentation for Swift",
+  "summary": "Learn Swift programming with curated documentation.",
+  "longDescription": "Swift is a versatile programming language with unique features and capabilities. Our curated collection of 10 documentation links helps you explore Swift's ecosystem, from getting started guides to advanced language features. Learn from official sources and build your proficiency systematically.",
+  "features": [
+    "Documentation",
+    "Tutorials",
+    "Best Practices"
+  ],
+  "links": [],
+  "tags": [
+    "swift",
+    "programming",
+    "language"
+  ],
+  "relatedLanguageIds": [
+    "rust",
+    "go",
+    "kotlin"
+  ],
+  "faqs": [
+    {
+      "question": "Is Swift a good programming language to learn?",
+      "answer": "Swift is an excellent choice for specific use cases. Its unique features make it suitable for various types of projects and career paths."
+    },
+    {
+      "question": "What can I build with Swift?",
+      "answer": "Swift is versatile and can be used for a wide range of applications. Check our documentation resources to learn about Swift's capabilities."
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "priority": 70
+  }
+}
